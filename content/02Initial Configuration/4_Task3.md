@@ -1,0 +1,49 @@
+---
+title: "Server Pools"
+linkTitle: "Server Pools"
+chapter: false
+weight: 3 
+---
+
+### **Server Pools**
+A server pool is a group of servers that work together to handle incoming requests. The servers in a pool share the load, ensuring that no single server becomes overwhelmed. The load balancer distributes the traffic among the servers in the pool based on predefined criteria such as server capacity, current load, and health status. This setup enhances the availability, scalability, and reliability of the applications and services being delivered.
+
+Real servers are physical servers that form real server pools. The Real Server configuration object specifies the status, type, and IP address or FQDN of the physical server. This Real Server configuration object can then be used as a member to form a real server pool.
+
+When FortiADC is deployed in L7 mode (reverse proxy), a new TCP session is established from the FortiADC to the real server. A "Real Server SSL Profile" determines how SSL is negotiated between the FortiADC and the real server.
+
+Once a server is added to the POOL we will need to define a health check so the FADC  can determine the status or availability of a server before forwarding a request to the server.
+
+In the Next Few Steps we will Define Real Servers and use them to create a Server Pool .  We will start the process by defining health checks.
+
+- Navigate to **Server Load Balance/Real Server Pool** 
+- Click on the **Real Server Pool** Tab
+- Click on **+Create New**
+
+![Magic](fad-serverpool.png)
+
+- **Name:** Web-Application 
+- **HealthCheck:** enable the toggle for health check and add the health check we created earlier
+- Click **SAVE** 
+
+Please note that if there is a requirement to encrypt the traffic between FortiADC and the application servers, you must configure the Real Server SSL profile and enable it within the server pool definition.
+
+![Magic](fad-serverpool1.png)
+
+- Click on the **+Create New** new button under Member 
+
+![Magic](fad-serverpool2.jpg)
+
+- **Real Server:**  APP-Server1 from the drop down menu
+- Accept default values for the other options
+- **Save**
+
+![Magic](pool-mbr1a.png)
+
+- **Real Server:**  APP-Server1 from the drop down menu
+- Accept default values for the other options
+- **Save**
+
+![Magic](pool-mbr2a.png)
+
+Since we will be using two applications to run our lab we will repeat the above steps again to define our second Real server Pool. 
