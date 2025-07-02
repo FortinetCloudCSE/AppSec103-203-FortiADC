@@ -24,7 +24,7 @@ In the Next Few Steps we will Define Real Servers and use them to create a Serve
 
 - **Name:** Web-Application 
 - **HealthCheck:** enable the toggle for health check and add the health check we created earlier
-- Click **SAVE** 
+- Click **Save** 
 
 _Please note that if there is a requirement to encrypt the traffic between FortiADC and the application servers, you must configure the Real Server SSL profile and enable it within the server pool definition._
 
@@ -59,4 +59,7 @@ In this section we will define two application servers.
 - Go to **Server Load Balance / Real Server Pool**
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
+- **Save*
+
+![](svr-dvwa1.png)
 
