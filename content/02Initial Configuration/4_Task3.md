@@ -63,6 +63,10 @@ In this section we will define two application servers.
 
 ![](svr-dvwa1.png)
 
-**Name:** DVWA1
-**Server Type:** Static
+- **Name:** DVWA1
+- **Server Type:** Static
+- **Status:** Enable
+- **Type:** IP
+- **Address:** 10.1.3.4
+- **Save**
 
