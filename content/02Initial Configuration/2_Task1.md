@@ -12,7 +12,7 @@ In server load balancing deployments, the system uses health checks to poll the 
 - Go to **Shared Resources/Health Check**
 - Click on **+Create New**
 
-![](fad-shared-res1.jpg)
+![](fad-shared-resources.png)
 
 - **Name:** Web_Application
 - **Type:** HTTP

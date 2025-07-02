@@ -16,7 +16,7 @@ Once a server is added to the POOL we will need to define a health check so the 
 
 In the Next Few Steps we will Define Real Servers and use them to create a Server Pool .  We will start the process by defining health checks.
 
-- Navigate to **Server Load Balance/Real Server Pool** 
+- Go to **Server Load Balance/Real Server Pool** 
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
 
@@ -26,13 +26,13 @@ In the Next Few Steps we will Define Real Servers and use them to create a Serve
 - **HealthCheck:** enable the toggle for health check and add the health check we created earlier
 - Click **SAVE** 
 
-Please note that if there is a requirement to encrypt the traffic between FortiADC and the application servers, you must configure the Real Server SSL profile and enable it within the server pool definition.
+_Please note that if there is a requirement to encrypt the traffic between FortiADC and the application servers, you must configure the Real Server SSL profile and enable it within the server pool definition._
 
 ![](fad-serverpool1.png)
 
 - Click on the **+Create New** new button under Member 
 
-![](fad-serverpool2.jpg)
+![](fad-serverpool2.png)
 
 - **Real Server:**  APP-Server1 from the drop down menu
 - Accept default values for the other options
@@ -46,4 +46,17 @@ Please note that if there is a requirement to encrypt the traffic between FortiA
 
 ![](pool-mbr2a.png)
 
+Your finished server pool should look like this.
+
+![](finished-svr-pool1.png)
+
 Since we will be using two applications to run our lab we will repeat the above steps again to define our second Real server Pool. 
+
+**Create Real Servers for the 2nd Application**
+
+In this section we will define two application servers.
+
+- Go to **Server Load Balance / Real Server Pool**
+- Click on the **Real Server Pool** Tab
+- Click on **+Create New**
+
