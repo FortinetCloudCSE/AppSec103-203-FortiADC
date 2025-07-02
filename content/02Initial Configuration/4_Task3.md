@@ -59,7 +59,7 @@ In this section we will define two application servers.
 - Go to **Server Load Balance / Real Server Pool**
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
-- **Save*
+- *Save*
 
 ![](svr-dvwa1.png)
 
