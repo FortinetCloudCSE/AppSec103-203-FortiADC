@@ -20,7 +20,7 @@ In the Next Few Steps we will Define Real Servers and use them to create a Serve
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
 
-![Magic](fad-serverpool.png)
+![](fad-serverpool.png)
 
 - **Name:** Web-Application 
 - **HealthCheck:** enable the toggle for health check and add the health check we created earlier
@@ -28,22 +28,22 @@ In the Next Few Steps we will Define Real Servers and use them to create a Serve
 
 Please note that if there is a requirement to encrypt the traffic between FortiADC and the application servers, you must configure the Real Server SSL profile and enable it within the server pool definition.
 
-![Magic](fad-serverpool1.png)
+![](fad-serverpool1.png)
 
 - Click on the **+Create New** new button under Member 
 
-![Magic](fad-serverpool2.jpg)
+![](fad-serverpool2.jpg)
 
 - **Real Server:**  APP-Server1 from the drop down menu
 - Accept default values for the other options
 - **Save**
 
-![Magic](pool-mbr1a.png)
+![](pool-mbr1a.png)
 
 - **Real Server:**  APP-Server1 from the drop down menu
 - Accept default values for the other options
 - **Save**
 
-![Magic](pool-mbr2a.png)
+![](pool-mbr2a.png)
 
 Since we will be using two applications to run our lab we will repeat the above steps again to define our second Real server Pool. 

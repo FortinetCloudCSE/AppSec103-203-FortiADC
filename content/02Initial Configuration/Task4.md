@@ -11,7 +11,7 @@ The next step is to configure a virtual server, which defines the type of traffi
 - Go to **Server Load Balance/Virtual Server**
 - Click on **+Create New** then **Advanced Mode**
 
-![Magic](fad-vs.png)
+![](fad-vs.png)
 
 ### **NAT Source Pools**
 

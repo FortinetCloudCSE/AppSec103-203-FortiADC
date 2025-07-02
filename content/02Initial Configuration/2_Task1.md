@@ -12,7 +12,7 @@ In server load balancing deployments, the system uses health checks to poll the 
 - Go to **Shared Resources/Health Check**
 - Click on **+Create New**
 
-![Magic](fad-shared-res1.jpg)
+![](fad-shared-res1.jpg)
 
 - **Name:** Web_Application
 - **Type:** HTTP
@@ -21,4 +21,4 @@ In server load balancing deployments, the system uses health checks to poll the 
 
 Notice that when you change the Type to HTTP, additional options related to HTTP become available, such as method, version, response code, and authentication requirements. For this exercise, we will accept the default values for all other entries except those defined above.
 
-![Magic](web-app-healthck.png)
+![](web-app-healthck.png)
