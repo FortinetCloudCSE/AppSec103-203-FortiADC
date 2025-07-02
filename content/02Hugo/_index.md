@@ -5,7 +5,7 @@ linkTitle: "Ch 2: Hugo Content"
 weight: 20
 ---
 
-### ***Learn to organize and create content in Hugo- estimated duration 20min***
+### ***Learn to organize and create content in Hugo- estimated duration 2min***
 
 You now have a container running hugo webserver and tracking changes to the **_/content_** directory in your repo.  
 
