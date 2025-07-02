@@ -6,7 +6,7 @@ weight: 20
 ---
 
 ### **Initial Configuration**
-In this section, we will review the steps needed to configure web application load balancing. The goal of deploying load balancers is to increase the availability of application servers, scale them to meet demand, and, in some cases, modify content before sending the request to the origin server.
+In this section, we will review the steps needed to configure web application load balancing. The goal of deploying load balancers is to increase the availability of application servers, scale them to meet demand, and in some cases, modify content before sending the request to the origin server.
 
 ![Magic](network-topo.png)
 
