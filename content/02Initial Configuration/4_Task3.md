@@ -79,7 +79,7 @@ In this section we will define two application servers.
 - **Address:** 10.1.3.5
 - **Save**
 
-
+Next we add the servers to a server pool.
 
 - Go to **Server Load Balance / Real Server Pool**
 - Click on the **Real Server Pool** Tab
