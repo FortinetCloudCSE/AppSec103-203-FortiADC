@@ -70,3 +70,37 @@ In this section we will define two application servers.
 - **Address:** 10.1.3.4
 - **Save**
 
+![](svr-dvwa2.png)
+
+- **Name:** DVWA2
+- **Server Type:** Static
+- **Status:** Enable
+- **Type:** IP
+- **Address:** 10.1.3.5
+- **Save**
+
+
+
+- Go to **Server Load Balance / Real Server Pool**
+- Click on the **Real Server Pool** Tab
+- Click on **+Create New**
+
+![](fad-serverpool.png)
+
+- **Name:** DVWA 
+- **HealthCheck:** enable the toggle for health check and add the builtin LB_HLTCHK_ICMP
+- Click **Save**  to save the configuration 
+
+![](dvwa-svrpool.png)
+
+- Click **+Create New**
+- Add the Real Servers defined in the previous step to the pool
+- While adding the servers, change the listening port to 8080
+
+Your final result should look like the image below 
+
+![](dvwa-pool-8080.png)
+
+
+
+
