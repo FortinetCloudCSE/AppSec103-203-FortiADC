@@ -14,6 +14,7 @@ To test for the first time:
 
 ![](juiceshop-test.png)
 
+
 ![](dvwa-test.png)
 
 This will complete the Initial Configuration Section
