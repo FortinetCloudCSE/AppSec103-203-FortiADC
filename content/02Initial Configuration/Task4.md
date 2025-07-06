@@ -72,7 +72,7 @@ Add how to for NAT Source Pools
 
 ![](fad-vs-dvwa-monitoring.png)
 
-- Go to **Fortiview / logical Topology** 
+- Go to **Fortiview / Logical Topology** 
 Your topology should look like the image below 
 
-![screen shot here](image-placeholder)
+![](fad-logical-topo.png)

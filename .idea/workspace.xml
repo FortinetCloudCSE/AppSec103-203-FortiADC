@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08e021bf-096c-4c86-9f7d-95a22c5c751f" name="Changes" comment="updated a few files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/02Initial Configuration/2_Task1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/02Initial Configuration/2_Task1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/02Initial Configuration/3_Task2.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/02Initial Configuration/3_Task2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/02Initial Configuration/4_Task3.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/02Initial Configuration/4_Task3.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/02Initial Configuration/Task4.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/02Initial Configuration/Task4.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +53,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dparisie-edits",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/dparisie/PycharmProjects/AppSec103-203-FortiADC/content/02Initial Configuration",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
