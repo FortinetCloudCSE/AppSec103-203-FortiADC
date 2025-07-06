@@ -17,7 +17,7 @@ The next step is to configure a virtual server, which defines the type of traffi
 
 Add how to for NAT Source Pools
 
-![](image-placeholder) "screenshot here"
+![screen shot here](image-placeholder)
 
 - On the Basic TAB 
 - **Name:** juiceshop
@@ -25,7 +25,7 @@ Add how to for NAT Source Pools
 - **Nat Source pool List:** Juiceshop
 - Click **Save**
 
-![](image-placeholder) "screenshot here"
+![screen shot here](image-placeholder)
 
 - Go to the **General** TAB 
 - **Address:** 10.1.2.100
@@ -38,7 +38,7 @@ Add how to for NAT Source Pools
 - **Real Server Pool:** WEB-APPLICATION
 - Click **Save**
 
-![](image-placeholder) "screenshot here"
+![screen shot here](image-placeholder)
 
 - Go to the **MONITORING** TAB
 - **TRAFFIC LOG:** Enable the Toggle
@@ -50,14 +50,14 @@ Add how to for NAT Source Pools
 - Go to **Server Load Balance/Virtual Server**
 - Click on **+Create New** then **Advanced Mode**
 
-![](image-placeholder) "screenshot here"
+![screen shot here](image-placeholder)
 
 - **Name:** DVWA
 - **Type:** Layer7
 - **Nat Source pool List:** DVWA-NAT
 Click **Save**
 
-![](image-placeholder) "screenshot here"
+![screen shot here](image-placeholder)
 
 - Go to the **General** TAB 
 - **Address:** 10.1.2.101
@@ -70,16 +70,16 @@ Click **Save**
 - **Real Server Pool:** DVWA
 - Click **Save**
 
-![](image-placeholder) "screenshot here"
+![screen shot here](image-placeholder)
 
 - Go to the **MONITORING** TAB
 - **TRAFFIC LOG:** Enable the Toggle
 - **FortiView:** Enable the Toggle
 - Click **Save**
 
-![](image-placeholder) "screenshot here"
+![screen shot here](image-placeholder)
 
 - Go to **Fortiview / logical Topology** 
 Your topology should look like the image below 
 
-![](image-placeholder) "screenshot here"
+![screen shot here](image-placeholder)
