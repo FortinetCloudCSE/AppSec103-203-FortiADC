@@ -9,8 +9,8 @@ weight: 5
 **To test for the first time:**
 
 - Open an RDP session to the Windows Client
-- Open a browser and go to the Juiceshop application - https://10.1.1.100
-- Open a browser and got to the DVWA application - https://10.1.1.101/dvwa/
+- Open a browser and go to the Juiceshop application at: https://10.1.1.100
+- Open a browser and got to the DVWA application at: https://10.1.1.101/dvwa/
 
 **Juiceshop**
 
