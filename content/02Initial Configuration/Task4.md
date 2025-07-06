@@ -15,4 +15,44 @@ The next step is to configure a virtual server, which defines the type of traffi
 
 ### **NAT Source Pools**
 
+Add how to for NAT Source Pools
 
+![](image-placeholder) "screenshot here"
+
+- On the Basic TAB 
+- **Name:** juiceshop
+- **Type:** Layer7
+- **Nat Source pool List:** Juiceshop
+- Click **Save**
+
+![](image-placeholder) "screenshot here"
+
+- Go to the **General** TAB 
+- **Address:** 10.1.2.100
+- **Port:** 443
+- **Interface:** Port2 ( from the dropdown Menu) 
+- **Profile:** LB_PROF_HTTPS
+- **Client SSL Profile:** LB_CLIENT_SSL_PROF_DEFAULT
+- **Persistence:** LB_Persis_SSL_SESS_ID
+- **Method:** LB_METHOD_ROUNDROBIN
+- **Real Server Pool:** WEB-APPLICATION
+- Click **Save**
+
+![](image-placeholder) "screenshot here"
+
+- Go to the **MONITORING** TAB
+- **TRAFFIC LOG:** Enable the Toggle
+- **FortiView:** Enable the Toggle
+- Click **Save**
+
+![](fad-vs.png)
+
+- Go to **Server Load Balance/Virtual Server**
+- Click on **+Create New** then **Advanced Mode**
+
+- **Name:** DVWA
+- **Type:** Layer7
+- **Nat Source pool List:** DVWA-NAT
+Click **Save**
+
+![](image-placeholder) "screenshot here"
