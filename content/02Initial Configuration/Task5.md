@@ -6,7 +6,7 @@ weight: 5
 ---
 ### **Test Your Configuration**
 
-To test for the first time:
+**To test for the first time:**
 
 - Open an RDP session to the Windows Client
 - Open a browser and go to the Juiceshop application - https://10.1.1.100
