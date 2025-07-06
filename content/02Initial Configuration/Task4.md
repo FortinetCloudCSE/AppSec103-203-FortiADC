@@ -19,13 +19,10 @@ Add how to for NAT Source Pools
 
 ![screen shot here](image-placeholder)
 
-- On the Basic TAB 
-- **Name:** juiceshop
+- **Name:** Juiceshop
 - **Type:** Layer7
-- **Nat Source pool List:** Juiceshop
-- Click **Save**
 
-![screen shot here](image-placeholder)
+![](fad-vs-basic.png)
 
 - Go to the **General** TAB 
 - **Address:** 10.1.2.100
@@ -33,31 +30,28 @@ Add how to for NAT Source Pools
 - **Interface:** Port2 ( from the dropdown Menu) 
 - **Profile:** LB_PROF_HTTPS
 - **Client SSL Profile:** LB_CLIENT_SSL_PROF_DEFAULT
-- **Persistence:** LB_Persis_SSL_SESS_ID
+- **Persistence:** LB_PERSIS_SSL_SESS_ID
 - **Method:** LB_METHOD_ROUNDROBIN
 - **Real Server Pool:** WEB-APPLICATION
-- Click **Save**
 
-![screen shot here](image-placeholder)
+![](fad-vs-general.png)
 
-- Go to the **MONITORING** TAB
-- **TRAFFIC LOG:** Enable the Toggle
+- Go to the **Monitoring** TAB
+- **Traffic Log:** Enable the Toggle
 - **FortiView:** Enable the Toggle
 - Click **Save**
 
-![](fad-vs.png)
+![](fad-vs-monitoring.png)
 
 - Go to **Server Load Balance/Virtual Server**
 - Click on **+Create New** then **Advanced Mode**
 
-![screen shot here](image-placeholder)
+![](fad-vs.png)
 
 - **Name:** DVWA
 - **Type:** Layer7
-- **Nat Source pool List:** DVWA-NAT
-Click **Save**
 
-![screen shot here](image-placeholder)
+![](fad-vs-dvwa-basic.png)
 
 - Go to the **General** TAB 
 - **Address:** 10.1.2.101
@@ -68,16 +62,15 @@ Click **Save**
 - **Persistence:** LB_PERSIS_SSL_SESS_ID
 - **Method:** LB_METHOD_ROUNDROBIN
 - **Real Server Pool:** DVWA
-- Click **Save**
 
-![screen shot here](image-placeholder)
+![](fad-vs-dvwa-general.png)
 
-- Go to the **MONITORING** TAB
-- **TRAFFIC LOG:** Enable the Toggle
+- Go to the **Monitoring** TAB
+- **Traffic Log:** Enable the Toggle
 - **FortiView:** Enable the Toggle
 - Click **Save**
 
-![screen shot here](image-placeholder)
+![](fad-vs-dvwa-monitoring.png)
 
 - Go to **Fortiview / logical Topology** 
 Your topology should look like the image below 

@@ -9,7 +9,7 @@ weight: 2
 
 In this section we will define two application servers. 
 
-- Go to **Server Load Balance/Real Server Pool**
+- Go to **Server Load Balance -> Real Server Pool**
 - Click on the **Real Server** Tab 
 - Click on **+Create New**
 

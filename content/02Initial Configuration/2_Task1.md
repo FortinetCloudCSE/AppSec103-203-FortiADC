@@ -9,7 +9,7 @@ In server load balancing deployments, the system uses health checks to poll the 
 
 **Configure Healthcheck**
 
-- Go to **Shared Resources/Health Check**
+- Go to **Shared Resources -> Health Check**
 - Click on **+Create New**
 
 ![](fad-shared-resources.png)
