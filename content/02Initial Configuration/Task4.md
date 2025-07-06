@@ -65,7 +65,21 @@ Click **Save**
 - **Interface:** Port2 ( from the dropdown Menu) 
 - **Profile:** LB_PROF_HTTPS
 - **Client SSL Profile:** LB_CLIENT_SSL_PROF_DEFAULT
-- **Persistence:** LB_Persis_SSL_SESS_ID
+- **Persistence:** LB_PERSIS_SSL_SESS_ID
 - **Method:** LB_METHOD_ROUNDROBIN
 - **Real Server Pool:** DVWA
 - Click **Save**
+
+![](image-placeholder) "screenshot here"
+
+- Go to the **MONITORING** TAB
+- **TRAFFIC LOG:** Enable the Toggle
+- **FortiView:** Enable the Toggle
+- Click **Save**
+
+![](image-placeholder) "screenshot here"
+
+- Go to **Fortiview / logical Topology** 
+Your topology should look like the image below 
+
+![](image-placeholder) "screenshot here"
