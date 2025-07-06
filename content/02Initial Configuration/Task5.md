@@ -12,8 +12,11 @@ To test for the first time:
 - Open a browser and go to the Juiceshop application - https://10.1.1.100
 - Open a browser and got to the DVWA application - https://10.1.1.101/dvwa/
 
+**Juiceshop**
+
 ![](juiceshop-test.png)
 
+**Damn Vulnerable Web Application \(DVWA\)**
 
 ![](dvwa-test.png)
 
