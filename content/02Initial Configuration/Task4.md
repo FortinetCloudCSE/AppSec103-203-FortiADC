@@ -50,6 +50,8 @@ Add how to for NAT Source Pools
 - Go to **Server Load Balance/Virtual Server**
 - Click on **+Create New** then **Advanced Mode**
 
+![](image-placeholder) "screenshot here"
+
 - **Name:** DVWA
 - **Type:** Layer7
 - **Nat Source pool List:** DVWA-NAT
