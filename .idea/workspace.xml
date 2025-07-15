@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08e021bf-096c-4c86-9f7d-95a22c5c751f" name="Changes" comment="updated a few files">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/02Initial Configuration/dvwa-pool-8080.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/02Initial Configuration/dvwa-pool-8080.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +114,7 @@
       <workItem from="1751463011887" duration="3029000" />
       <workItem from="1751485729223" duration="13027000" />
       <workItem from="1751807724417" duration="1493000" />
-      <workItem from="1752609652477" duration="2331000" />
+      <workItem from="1752609652477" duration="3177000" />
     </task>
     <task id="LOCAL-00054" summary="changed page content">
       <option name="closed" value="true" />

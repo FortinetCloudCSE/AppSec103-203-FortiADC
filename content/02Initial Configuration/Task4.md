@@ -13,12 +13,6 @@ The next step is to configure a virtual server, which defines the type of traffi
 
 ![](fad-vs.png)
 
-### **NAT Source Pools**
-
-Add how to for NAT Source Pools
-
-![screen shot here](image-placeholder)
-
 - **Name:** Juiceshop
 - **Type:** Layer7
 
