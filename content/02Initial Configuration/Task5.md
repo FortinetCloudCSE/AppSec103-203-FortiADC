@@ -6,5 +6,18 @@ weight: 5
 ---
 ### **Test Your Configuration**
 
-We have set up a VNC session that provides access to a Firefox browser on the client machine. To access the browser, open a browser on your local machine and enter the client machine’s IP address. In the example below, the management IP address of the client machine is 10.99.227.138, which you will input into your browser.
+**To test for the first time:**
 
+- Open an RDP session to the Windows Client
+- Open a browser and go to the Juiceshop application at: https://10.1.1.100
+- Open a browser and got to the DVWA application at: https://10.1.1.101/dvwa/
+
+**Juiceshop**
+
+![](juiceshop-test.png)
+
+**Damn Vulnerable Web Application \(DVWA\)**
+
+![](dvwa-test.png)
+
+This will complete the Initial Configuration Section
