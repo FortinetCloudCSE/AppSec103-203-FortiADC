@@ -1,63 +1,27 @@
 ---
-title: "Task 1 - Push content to your repo"
-linkTitle: "Git push/Auto-publish"
+title: "Adaptive Learning"
+linkTitle: "Adaptive Learning"
 chapter: false
-weight: 2
+weight: 50
 ---
 
-### Push your content to GitHubo repo
+### What is Adaptive Learning?
 
-- When you're satisfied with the look and feel of your workshop guide locally, **from your local workstation CLI**, push the newly created Hugo site up to GitHub to automatically publish your Hugo Site
+The new FortiADC WAF Adaptive Learning feature enhances security by dynamically generating tailored recommendations to refine protection policies, allowing for quick and effective WAF configuration to counter evolving threats. By continuously performing deep packet inspection and traffic analysis, the Adaptive Learning engine builds comprehensive datasets from traffic patterns, enabling it to autonomously detect and mitigate threats with precision. These insights allow the engine to provide actionable recommendations for optimizing WAF policies, ensuring that security measures are adapted to the specific traffic characteristics of each web application. This results in an improved security posture and better operational performance through real-time adjustments and fine-tuning of security settings.
 
-   ```shell
-     git add .
-     git commit -m "<my commit message>"
-     git push 
-   ``` 
+The WAF Adaptive Learning feature requires either a WAF Signature license or an Application Security bundle license. For users without a valid license, FortiADC offers a 30-day trial that activates automatically when upgrading to FortiADC version 7.6.0, allowing exploration of the WAF Adaptive Learning capabilities.
 
-- Remember we're always working in a Git Branch, so you should get in the habit of issuing a Pull request and merge [using our GitFlow procedure](gitflow.html)
+Here are some practical applications of the WAF Adaptive Learning functionality:
 
-  {{% notice info %}} This is mostly applicable when working in a collaborative environment where multiple people may be pushing to the repo with different branches/PR to main.  Strictly speaking, if you're the only person working on this repo and/or it's your first push, this step isn't 100% necessary {{% /notice %}}
+- **Creating new WAF policies**: During the setup of a new virtual server, users can utilize the Adaptive Learning recommendation feature to automatically generate and apply basic WAF policies for a new WAF profile.
 
-  ```shell 
-            # locally checkout the main branch
-        git checkout main
-            # pull the latest version of main from GitHub to your local repo 
-        git pull
-            # locally checkout your feature branch
-        git checkout <branch>
-            # locally perform an interactive rebase which locally pull commits from main into my branch
-        git rebase main -i 
-            # push my local branch (which now includes the latest changes from GH main) up to GitHub remote
-        git push --force
-  
-        ########### WAIT FOR PR APPROVAL
-    ```
-- Create a PR on GitHub, being sure to select your branch to merge with main. Wait for approval
-   
-     ![PRScreenshot](GH-PR.jpg)
-   - {{% notice info %}} You will not be able to merge the PR until receiving approval from Jeff or Rob.  They will receive an email for review, but it's a good idea to ping them as a reminder. {{% /notice %}}
-     ![PRmergeblock](PR-mergeblocked.jpg)
-  - Once your PR is approved, checkout the main branch and perform a fast-forward merge and force push to complete the workflow.
-  
-      ```shell 
-            # locally checkout the main branch
-        git checkout main
-            # locally merge myFeatureBranch into main with a fast-forward merge scheme
-        git merge <feature branch name> --ff-only
-            # push local main (which now has myFeatureBranch merged into it) up to GitHub remote  
-            # because this push includes the merge it will auto close the PullRequest
-        git push
-      ```
-    
-- Once your PR has been approved and your code is in the **_main_** branch, GitHub actions will automatically publish the contents of **/docs** folder to GitHub Pages
-  {{% notice tip %}} Remember, Hugo's build wrote the static html pages to the **/public** directory in the container, which is mapped to your **/docs** folder in your local repo{{% /notice %}}
+- **Enhancing existing WAF policies**: Users can adjust policy settings based on Adaptive Learning recommendations, which identify changes in traffic patterns to enhance the security of current WAF policies.
 
-### GitHub Action to Auto Publish
-- The file workflows/static.yaml is already included in your repo and triggers a GitHub Action to build and publish your Hugo site every time you push content to GitHub.
-- Action:
-  - Build a Hugo container with all of our customizations
-  - Issue a Hugo Build command to create static HTML site
-  - Publish resulting HTML to GitHub Pages for your repo
-- You can see action progress and errors in the **Actions** Tab on your repo
+- **Identifying and reducing false positives**: The Adaptive Learning engine helps detect false positive triggers in WAF policies, allowing users to adjust settings and exclude unnecessary violations.
+
+The Adaptive Learning engine has two key components:
+
+- **Adaptive Learning policy** - It defines the dataset
+- **Adaptive Learning statistics** - It contains the analytical results and actionable recommendations.
+
 
