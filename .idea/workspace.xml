@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08e021bf-096c-4c86-9f7d-95a22c5c751f" name="Changes" comment="updated a few files" />
+    <list default="true" id="08e021bf-096c-4c86-9f7d-95a22c5c751f" name="Changes" comment="updated a few files">
+      <change afterPath="$PROJECT_DIR$/content/05Application Access Gateway/2_Task1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/05Application Access Gateway/3_Task2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/05Application Access Gateway/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/00ChangeLog/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/00ChangeLog/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/02Initial Configuration/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/02Initial Configuration/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/UpdateJenkinsPAT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/admin-perms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/click-creds-jenkins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/creds-ver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/dev-settings-click.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/fct-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/gen-token-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/github-main-page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/github-servers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/gnt-dropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/icon-dropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/jenkins-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/jenkins-save-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/manage-jenkins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/mj-breadcrumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/mj-system.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/pat-click.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/pat-token-example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/regen-token.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/repo-perms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/test-conn-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/upd-ch-pwd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04Chapter4 copy/update-token.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +81,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dparisie-edits",
     "last_opened_file_path": "/Users/dparisie/PycharmProjects/AppSec103-203-FortiADC/content/02Initial Configuration",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

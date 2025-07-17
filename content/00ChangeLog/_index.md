@@ -4,11 +4,11 @@ linkTitle: "What's New"
 weight: 5
 ---
 
-### This is a list of new features and/or changes in a given version
+### New for FortiADC
 
 ---
 
-## 8.0.0
+## Version 8.0.0
 
 ### Application Access Gateway (AAG)
 

@@ -1,7 +1,7 @@
 ---
-title: "Ch 2 Initial Configuration"
+title: "Initial Configuration"
 chapter: false
-linkTitle: "Ch 2: Initial Configuration"
+linkTitle: "Initial Configuration"
 weight: 20
 ---
 
