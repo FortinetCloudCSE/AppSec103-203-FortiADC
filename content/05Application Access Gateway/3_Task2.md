@@ -27,14 +27,14 @@ Each VDOM supports up to 1024 App Groups, but a single App Portal can be associa
 
 The App Bookmark configuration workflow is entirely dependent on the specific protocol. Each App Bookmark within an App Group is configured with application-specific parameters to ensure optimal access control and user experience. Once configured, an App Group can be added to an App Portal, making the applications available to authenticated users. The steps below outline the basic workflow to configure an App Bookmark.
 
-1. Go to **Application Access Manager > Agentless Application Gateway**
+1. Go to Application Access Manager > Agentless Application Gateway
 The configuration page displays the App Portal tab.
 2. Click the App Group tab.
 3. Create a new App Group or edit an existing configuration.
-4. Under the App Bookmark section, click **Create New** to display the configuration editor.
+4. Under the App Bookmark section, click Create New to display the configuration editor.
 5. In the Name field, specify a unique name for the App Bookmark configuration object. Valid characters are A-Z, a-z, 0-9, _, and -. No space is allowed.
 6. From the Type field, select an application from the drop-down menu. This selection determines the parameters to configure. To view the configuration parameters for each application, see [App Bookmark Types](https://docs.fortinet.com/document/fortiadc/8.0.0/administration-guide/539658/configuring-an-app-group#App_types) where you can navigate to the desired application type.
-7. Click **Save** to save the configuration.
+7. Click Save to save the configuration.
 Repeat the steps to add up to 256 Bookmarks per App Group.
 
 **App Bookmark Types**
