@@ -57,6 +57,9 @@ Each App Bookmark Type requires specific parameters to be configured. The follow
 Web RDP (Remote Desktop Protocol) provides web-based access to a remote Windows desktop session without requiring an RDP client. It allows users to connect to Windows systems securely through their browser, making it ideal for remote administration, virtual desktop access, and troubleshooting.
 
 ![](aag4.png)
+![](aag4a.png)
+![](aag4b.png)
+
 
 | Parameter             | Description                                                                                                                     |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------|
@@ -88,6 +91,8 @@ Native RDP
 Native RDP allows users to launch a full remote desktop session using an installed RDP client. Unlike Web RDP, which runs in a browser, Native RDP opens the session in the system's RDP client, providing a more responsive experience and leveraging full client-side capabilities, including peripheral redirection, multiple monitor support, and enhanced performance.
 
 ![](aag7.png)
+![](aag7a.png)
+
 
 |Parameter| Description                                                                                        |
 |---------|----------------------------------------------------------------------------------------------------|
@@ -112,9 +117,84 @@ Native RDP allows users to launch a full remote desktop session using an install
 
 RemoteApp provides access to specific applications hosted on a remote Windows server without opening a full remote desktop session. Unlike Web RDP, which grants access to the entire remote desktop environment, RemoteApp launches only the selected application in a separate window, making it appear as if it is running locally on the user's device. This approach enhances security by restricting access to only approved applications and improves the user experience by integrating remote applications seamlessly into the local desktop environment.
 
-**When publishing RemoteApp bookmarks:**
+**Note:** When publishing RemoteApp bookmarks
 - Privacy and security settings, such as camera redirection, must be properly configured on the RDP session host.
 - Redirect-printer support requires that the appropriate printer driver is installed on the RDP server before use.
 
 ![](aag5.png)
+![](aag7a.png)
+
+| Parameter             | Description |
+|-----------------------|-|
+| Host                  | The IP address or hostname of the RemoteApp server. |
+| Port                  | The port used for the RemoteApp connection (default: 3389, range: 1-65535). |
+| Description           | Optional description for the RemoteApp bookmark. |
+| App Name              | The display name of the RemoteApp application. |
+| App Path              | The full path to the executable of the RemoteApp. |
+| App Parameters        | Additional command-line arguments for the RemoteApp. |
+| **Advanced Settings** | |
+| Redirect Clipboard    | Allows clipboard sharing between the remote and local machine.|
+| Redirect Drives       | Enables access to local drives within the RemoteApp session.|
+| Redirect Printers     | Allows remote access to local printers.|
+|Redirect Microphone| Enables microphone redirection for remote audio input.|
+|Redirect Camera| Enables camera redirection for video conferencing applications.|
+|Multiple Monitor Support| Allows the RemoteApp session to span multiple monitors.|
+|Keyboard Hook Mode| Defines how keyboard shortcuts (e.g., Alt+Tab) are handled in the session.|
+|| - On Local – Keyboard shortcuts remain on the local machine. |
+|| - On Remote Desktop Focus – Shortcuts apply to the remote session only when it is the active window. |
+|| - On Remote Desktop Full Screen – Shortcuts apply to the remote session only when in full-screen mode. This is the default option. |
+|| - On Remote App Focus – Shortcuts apply to the remote application window, not the full desktop session.|
+|Custom Parameters|Additional RDP client parameters for advanced configurations. |
+
+Web VNC
+
+Web VNC (Virtual Network Computing) enables web-based remote access to graphical desktops on Linux, macOS, and other VNC-compatible systems. It is commonly used for remote system administration and technical support.
+
+![](aag8.png)
+![](aag8a.png)
+
+| Parameter             | Description                                                           |
+|-----------------------|-----------------------------------------------------------------------|
+| Host                  | The IP address or hostname of the VNC server.                         |
+| Port                  | The port used for the VNC connection (default: 5900, range: 1-65535). |
+| Description           | Optional description for the Web VNC bookmark.                        |
+| **Advanced Settings** |                                                                       |
+| Username              | The username for VNC authentication, if required.                     |
+| Password              | The password for VNC authentication, if required.                     |
+| Color Depth           | Sets the color depth for the VNC session.                             |
+|                       | - 8 Bit                                                               |
+|                       | - 16 Bit (Default)                                                    |
+|                       | - 32 Bit                                                              |
+|Screen Width|Specifies the width of the VNC session display. The default value is 1024, with a valid range of 200-8192.|
+|Screen Height|Specifies the height of the VNC session display. The default value is 768, with a valid range of 200-8192.|
+|Clipboard|Enables or disables clipboard sharing between the remote and local system.|
+
+
+Web SSH
+
+Web SSH (Secure Shell) provides secure, web-based command-line access to remote Linux and Unix systems. It is commonly used for server administration and troubleshooting.
+
+![](aag9.png)
+![](aag9a.png)
+
+| Parameter             | Description  |
+|-----------------------|--------------|
+| Host                  |The IP address or hostname of the SSH server.|
+| Port                  |The port used for the SSH connection (default: 22, range: 1-65535).|
+| Description           |Optional description for the Web SSH bookmark.|
+| **Advanced Settings** ||
+| Username              |The SSH login username.|
+| Password              |The SSH login password (if password authentication is used).|
+
+Web TELNET
+
+Web Telnet provides browser-based access to network devices and legacy systems that use the Telnet protocol. It is commonly used for managing routers, switches, and older mainframe systems.
+
+![](aag10.png)
+
+|Parameter|Description|
+|---------|-----------|
+|Host|The IP address or hostname of the Telnet server.|
+|Port|The port used for the Telnet connection (default: 23, range: 1-65535).|
+|Description|Optional description for the Web Telnet bookmark.|
 
