@@ -29,12 +29,11 @@ The App Bookmark configuration workflow is entirely dependent on the specific pr
 
 1. Go to **Application Access Manager > Agentless Application Gateway**
 The configuration page displays the App Portal tab.
-Click the App Group tab.
-2. Create a new App Group or edit an existing configuration.
-3. Under the App Bookmark section, click **Create New** to display the configuration editor.
-4. In the Name field, specify a unique name for the App Bookmark configuration object. Valid characters are A-Z, a-z, 0-9, _, and -. No space is allowed.
-5. From the Type field, select an application from the drop-down menu. This selection determines the parameters to configure.
-6. To view the configuration parameters for each application, see App Bookmark Types where you can navigate to the desired application type.
+2. Click the App Group tab.
+3. Create a new App Group or edit an existing configuration.
+4. Under the App Bookmark section, click **Create New** to display the configuration editor.
+5. In the Name field, specify a unique name for the App Bookmark configuration object. Valid characters are A-Z, a-z, 0-9, _, and -. No space is allowed.
+6. From the Type field, select an application from the drop-down menu. This selection determines the parameters to configure. To view the configuration parameters for each application, see [App Bookmark Types](https://docs.fortinet.com/document/fortiadc/8.0.0/administration-guide/539658/configuring-an-app-group#App_types) where you can navigate to the desired application type.
 7. Click **Save** to save the configuration.
 Repeat the steps to add up to 256 Bookmarks per App Group.
 
@@ -51,27 +50,63 @@ Each App Bookmark Type requires specific parameters to be configured. The follow
 |Web SSH|Allows command-line access to remote Linux or Unix servers via a secure, browser-based SSH session.|
 |Web Telnet|Provides browser-based access to Telnet-enabled devices for legacy terminal access.|
 
+**Note:** For application types that require login credentials—such as RDP, VNC, and SSH—you must specify a username and password within the App Group configuration. When cloning an App Group, all passwords are automatically cleared and must be re-entered manually to maintain secure handling.
+
 **Web RDP**
 
 Web RDP (Remote Desktop Protocol) provides web-based access to a remote Windows desktop session without requiring an RDP client. It allows users to connect to Windows systems securely through their browser, making it ideal for remote administration, virtual desktop access, and troubleshooting.
 
 ![](aag4.png)
 
-|Parameter| Description                                                                                                              |
-| --- |--------------------------------------------------------------------------------------------------------------------------|
-| Host | The IP address or hostname of the target Windows machine.                                                                |
-| Port | The port used for the RDP connection (default: 3389, range: 1-65535).                                                    |
-| Description | Optional description for the Web RDP bookmark.                                                                           |
-| Advanced Setting |
-| Single Sign-On | Determines whether Single Sign-On is used.                                                                               |
-| Username | The username for authentication when Single Sign-On is disabled.                                                         |
-| Password | The password for authentication when Single Sign-On is disabled.                                                         |
-|SSO Credential| Appears when Single Sign-On is set to App Portal Login. The SSO Credential is set to use the App Portal Login by default.|
-|Color Depth|Sets the color depth for the remote session.|
-|Screen Width|Specifies the width of the remote session display (default: 1024, range: 200-8192).|
-|Screen Height|Specifies the height of the remote session display (default: 768, range: 200-8192).|
-|Security|Defines the security protocol for the RDP session.|
-|Clipboard|Enables or disables clipboard sharing between the remote session and the local machine.|
+| Parameter             | Description                                                                                                                     |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Host                  | The IP address or hostname of the target Windows machine.                                                                       |
+| Port                  | The port used for the RDP connection (default: 3389, range: 1-65535).                                                           |
+| Description           | Optional description for the Web RDP bookmark.                                                                                  |
+| **Advanced Settings** |                                                                                                                                 |
+| **Single Sign-On**    | Determines whether Single Sign-On is used.                                                                                      |
+|                       | - Disable (default) — manual login required. You will need to set the Username and Password for this login.                     |
+|                       | - App Portal Login — uses portal credentials.                                                                                   |
+| Username              | The username for authentication when Single Sign-On is disabled.                                                                |
+| Password              | The password for authentication when Single Sign-On is disabled.                                                                |
+| SSO Credential        | Appears when Single Sign-On is set to App Portal Login. The SSO Credential is set to use the App Portal Login by default.       |
+| **Color Depth**       | Sets the color depth for the remote session.                                                                                    |
+|                       | - 8 Bit                                                                                                                         |
+|                       | - 16 Bit (Default)                                                                                                              |
+|                       | - 32 Bit                                                                                                                        |
+| Screen Width          | Specifies the width of the remote session display (default: 1024, range: 200-8192).                                             |
+| Screen Height         | Specifies the height of the remote session display (default: 768, range: 200-8192).                                             |
+| **Security**          | Defines the security protocol for the RDP session.                                                                              |
+|                       | - Allow the server to choose the type of security – Uses the server's configured security settings. This is the default option. |
+|                       | - Standard RDP security – Uses legacy RDP encryption.                                                                           |
+|                       | - Network level authentication – Requires authentication before establishing the RDP session.                                   |
+|                       | - TLS encryption – Uses Transport Layer Security (TLS) for encrypted communication.                                             |
+| Clipboard             | Enables or disables clipboard sharing between the remote session and the local machine.                                         |
+
+Native RDP
+
+Native RDP allows users to launch a full remote desktop session using an installed RDP client. Unlike Web RDP, which runs in a browser, Native RDP opens the session in the system's RDP client, providing a more responsive experience and leveraging full client-side capabilities, including peripheral redirection, multiple monitor support, and enhanced performance.
+
+![](aag7.png)
+
+|Parameter| Description                                                                                        |
+|---------|----------------------------------------------------------------------------------------------------|
+|Host| The IP address or hostname of the target Windows machine.                                          |
+|Port| The port used for the RDP connection (default: 3389, range: 1-65535).                              |
+|Description| 	Optional description for the Native RDP bookmark.                                                 |
+|Advanced Settings|                                                                                                    |
+|Redirect Clipboard| Allows clipboard sharing between the remote and local machine.                                     |
+|Redirect Drives| Enables access to local drives within the remote session.                                          |
+|Redirect Printers| Allows remote access to local printers.                                                            |
+|Redirect Microphone| Enables microphone redirection for remote audio input.                                             |
+|Redirect Camera| Enables camera redirection for video conferencing applications.                                    |
+|Multiple Monitor Support| Allows the remote session to span multiple monitors.                                               |
+|**Keyboard Hook Mode**| Defines how keyboard shortcuts (e.g., Alt+Tab) are handled in the session.                         |
+|| - On Local – Keyboard shortcuts remain on the local machine.                                       |
+|| - On Remote Desktop Focus – Shortcuts apply to the remote session only when it is the active window. |
+|| - On Remote Desktop Full Screen – Shortcuts apply to the remote session only when in full-screen mode. This is the default option.|
+|| - On Remote App Focus – Shortcuts apply to the remote application window, not the full desktop session.|
+|Custom Parameters|Additional RDP client parameters for advanced configurations.|
 
 **RemoteApp**
 
