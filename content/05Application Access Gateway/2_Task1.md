@@ -8,6 +8,7 @@ weight: 1
 Choosing the appropriate authentication method for FortiADC's Agentless Application Gateway (AAG) is critical for securing access to applications while ensuring compatibility with existing identity management frameworks. This section provides a structured approach to determining the most suitable authentication mechanism based on user types, security policies, and infrastructure requirements.
 
 Authentication Methods and Deployment Considerations
+
 FortiADC supports multiple authentication mechanisms for AAG access, all enforced through Access Policies. Each authentication method is suited to specific deployment scenarios. The table below outlines the key characteristics of each method:
 
 ### Table Goes Here
