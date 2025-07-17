@@ -153,7 +153,7 @@ Set up application delivery through a virtual server.
 - Deploy a Layer 7 Virtual Server and assign the APP Access profile, Access Policy, and enable RDP Proxy (if required).
 - Associate the App Portal with the virtual server.
 
-For details, see [Deploying the AAG Virtual Server](https://docs.fortinet.com/document/fortiadc/8.0.0/administration-guide/788718/deploying-the-aag-virtual-server)
+For details, see [Deploying the AAG Virtual Server](https://docs.fortinet.com/document/fortiadc/8.0.0/administration-guide/788718/deploying-the-aag-virtual-server).
 
 
 
