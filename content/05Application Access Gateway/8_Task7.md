@@ -100,7 +100,7 @@ Use the *diagnose app-publish* command set to inspect AAG configuration and mana
 |clear-user|Clears all tracked session state for a specified user.|
 |clear-connection|Terminates all AAG application connections for a specific user or session.|
 
-Example:
+**Example:**
 
 ![](aag27.png)
 
@@ -120,6 +120,6 @@ This command provides backend insight into:
 
 Enable debug output when troubleshooting issues related to user login failures, bookmark rendering problems, or connection errors.
 
-Example:
+**Example:**
 
 ![](aag28.png)
