@@ -33,11 +33,11 @@ FortiADC’s Agentless Application Gateway (AAG) eliminates these dependencies b
 
 **AAG supports the following authentication workflow:**
 
-1. The user accesses the AAG App Portal via browser.
-2. FortiADC evaluates the Access Policy and enforces the configured authentication method by:
-3. Validating credentials against Local User, LDAP, or RADIUS servers. 
-4. Redirecting to a SAML 2.0 Identity Provider (e.g., FortiAuthenticator, Microsoft Entra ID) for federated login. 
-5. Upon successful authentication, FortiADC grants access to the App Portal associated with the user's session.
+1. The user accesses the AAG App Portal via browser. 
+2. FortiADC evaluates the Access Policy and enforces the configured authentication method by: 
+   - Validating credentials against Local User, LDAP, or RADIUS servers. 
+   - Redirecting to a SAML 2.0 Identity Provider (e.g., FortiAuthenticator, Microsoft Entra ID) for federated login. 
+3. Upon successful authentication, FortiADC grants access to the App Portal associated with the user's session.
 
 The user can view and launch their assigned application bookmarks for services such as RDP, SSH, VNC, Telnet, and web apps.
 
