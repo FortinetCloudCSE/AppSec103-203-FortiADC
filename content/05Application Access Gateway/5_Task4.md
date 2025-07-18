@@ -42,7 +42,7 @@ You can create a custom profile or use the predefined LB_PROF_APP_ACCESS profile
 |RDP Proxy Access Token Timeout| Defines how long the RDP access token remains valid in seconds. The default value is 90 seconds, and the valid range is 30-600 seconds.                                                                                                                                                                 |
 |RDP Online User Access Limit| Enable to limit the number of concurrent RDP sessions per user through the App Portal.                                                                                                                                                                                                                  |
 
-Predefined APP Access Profile: LB_PROF_APP_ACCESS
+Predefined APP Access Profile: **LB_PROF_APP_ACCESS**
 
 |Parameter|Default Value|
 |---------|-------------|

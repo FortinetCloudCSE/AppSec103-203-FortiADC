@@ -10,7 +10,7 @@ After setting up the App Portal and deploying the Agentless Application Gateway 
 
 This section provides an overview of the end-user experience, including authentication flow, portal navigation, application access, and session handling.
 
-Topics Covered:
+**Topics Covered:**
 
 - Signing In and Session Management – Authentication methods and session behavior.
 - Exploring the AAG Portal Interface – Layout and navigation overview.

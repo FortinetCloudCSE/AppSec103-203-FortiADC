@@ -37,7 +37,7 @@ The table displays the following fields:
 
 This dashboard is useful for tracking session state, identifying active users, and confirming authentication success.
 
-Event Logs – Authentication Activity
+**Event Logs – Authentication Activity**
 
 To review authentication behavior and diagnose login issues, navigate to Log & Report > Event Log and filter by User.
 
@@ -60,7 +60,7 @@ Each log entry provides detailed contextual information, including:
 
 Use this log view to validate user authentication behavior, troubleshoot policy misconfigurations, or verify enforcement across user groups and virtual domains.
 
-Traffic Logs – Application Access
+**Traffic Logs – Application Access**
 
 Navigate to Log & Report > Traffic Log and filter by Application Access to analyze usage and connection details for all applications accessed through the AAG App Portal.
 
@@ -89,7 +89,7 @@ This log provides visibility into user activity, bandwidth usage, and resource a
 
 App-Publish Diagnostic Commands
 
-Use the diagnose app-publish command set to inspect AAG configuration and manage user sessions directly from the CLI:
+Use the *diagnose app-publish* command set to inspect AAG configuration and manage user sessions directly from the CLI:
 
 |Command|Description|
 |-------|-----------|
@@ -108,7 +108,7 @@ Example:
 
 To enable verbose logging for the AAG module (app-publish), use the following command to view runtime behavior and debug issues:
 
-diagnose debug module fnginx app-publish
+*diagnose debug module fnginx app-publish*
 
 This command provides backend insight into:
 

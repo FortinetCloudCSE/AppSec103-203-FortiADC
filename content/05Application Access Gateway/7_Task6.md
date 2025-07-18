@@ -16,7 +16,7 @@ This section outlines three practical deployment scenarios where FortiADC AAG ca
 
 Each scenario presents specific challenges, followed by a technical walkthrough of the AAG solution and the resulting benefits.
 
-Scenario 1: Secure Remote Access for Distributed Workforces
+**Scenario 1:** Secure Remote Access for Distributed Workforces
 
 ![](aag21.png)
 
@@ -34,7 +34,7 @@ Outcome:
 - Reduced VPN complexity and administrative overhead
 - Centralized authentication and session-level visibility
 
-Scenario 2: Unified Access to Hybrid Cloud Applications
+**Scenario 2:** Unified Access to Hybrid Cloud Applications
 
 ![](aag22.png)
 
@@ -52,7 +52,7 @@ Outcome:
 - Reduced operational complexity via centralized policy management
 - Strengthened compliance through unified logging and identity-based controls
 
-Scenario 3: Secure, Clientless RDP Access for Remote and BYOD Users
+**Scenario 3:** Secure, Clientless RDP Access for Remote and BYOD Users
 
 ![](aag23.png)
 
