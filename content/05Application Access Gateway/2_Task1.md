@@ -29,7 +29,7 @@ Local User Authentication
 
 For details, see [Local User](https://docs.fortinet.com/document/fortiadc/8.0.0/administration-guide/037414/local-user).
 
-LDAP/RADIUS Authentication
+**LDAP/RADIUS Authentication**
 
 AAG integrates with LDAP directories (e.g., Microsoft Active Directory) and RADIUS servers to authenticate users based on corporate credentials. This allows centralized user account management and simplifies integration into existing identity infrastructures.
 - Supports: Secure credential validation, dynamic group mapping
@@ -37,13 +37,7 @@ AAG integrates with LDAP directories (e.g., Microsoft Active Directory) and RADI
 
 For details, see [Using an LDAP authentication server](https://docs.fortinet.com/document/fortiadc/8.0.0/administration-guide/628325/using-an-ldap-authentication-server) and [Using a RADIUS authentication server](https://docs.fortinet.com/document/fortiadc/8.0.0/administration-guide/110302/using-a-radius-authentication-server).
 
-LDAP/RADIUS Authentication
-
-AAG integrates with LDAP directories (e.g., Microsoft Active Directory) and RADIUS servers to authenticate users based on corporate credentials. This allows centralized user account management and simplifies integration into existing identity infrastructures.
-- **Supports:** Secure credential validation, dynamic group mapping
-- **Does not support:** MFA enforcement for AAG App Portal access
-
-SAML-Based Authentication
+**SAML-Based Authentication**
 
 SAML is the preferred method for organizations using federated identity platforms such as FortiAuthenticator or Microsoft Entra ID (formerly Azure AD). FortiADC acts as a SAML 2.0 Service Provider (SP), redirecting authentication requests to the Identity Provider (IdP).
 
@@ -52,7 +46,7 @@ SAML is the preferred method for organizations using federated identity platform
 - Passwordless experience through external IdP
 - Support for cross-domain identity federation
 
-Aligning Authentication with Security Policies
+**Aligning Authentication with Security Policies**
 
 Authentication settings should be configured in conjunction with FortiADC’s access control policies, session management rules, and logging mechanisms to ensure a secure and compliant deployment.
 
