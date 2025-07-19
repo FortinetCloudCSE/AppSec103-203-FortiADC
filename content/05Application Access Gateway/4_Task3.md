@@ -16,7 +16,7 @@ From the App Portal configuration page, administrators can customize the portalâ
 
 Ensure that you have already configured the necessary App Groups containing the application bookmarks that will be made available to end-users through the App Portal. For details, see [Configuring an App Group](https://docs.fortinet.com/document/fortiadc/8.0.0/administration-guide/539658/configuring-an-app-group).
 
-To configure an App Portal:
+**To configure an App Portal:**
 1. Navigate to Application Access Manager > Agentless Application Gateway.
 The configuration page displays the App Portal tab.
 2. Click Create New to display the configuration editor.
