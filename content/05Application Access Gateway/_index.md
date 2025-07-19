@@ -51,42 +51,42 @@ AAG operates at Layer 7 as an SSL-terminating reverse proxy, inspecting client r
 - Client-SSL termination ensures encrypted client communication while enabling inspection and policy enforcement at the gateway.
 - Backend authentication passthrough allows seamless integration with existing enterprise identity providers.
 - Session persistence mechanisms maintain continuity for authenticated sessions.
-- Real-time logging and monitoring track user activity and enforce compliance requirements.
+- Real-time logging and monitoring tracks user activity and enforces compliance requirements.
 
 **Control Plane Components**
 
 The control plane in AAG manages authentication, policy enforcement, session handling, and application publishing. It acts as the centralized management layer, integrating with identity providers (IdPs) and enforcing security policies based on user roles, device attributes, and contextual data. By decoupling authentication and access control from the data plane, the control plane ensures efficient session management while maintaining high security.
 
-App Portal Virtual Server (L7 Reverse Proxy)
+**App Portal Virtual Server (L7 Reverse Proxy)**
 
 - Handles user login, authentication enforcement, and session initiation.
 - Performs SSL termination and supports IPv4/IPv6.
 - Integrates with Access Policies and federated identity providers.
 
-Authentication and Authorization Services
+**Authentication and Authorization Services**
 
 - Supports local and remote identity verification through Access Policies.
 - Compatible with LDAP, RADIUS, and SAML IdPs (e.g., FortiAuthenticator, Microsoft Entra ID).
 
-Application Portal and Bookmark Management
+**Application Portal and Bookmark Management**
 
-- Hosts a centralized, web-based portal for users to access published applications.
--Supports dynamic bookmarks mapped via LDAP attributes for personalized access.
+- Hosts a centralized, web-based portal to give users access to published applications.
+- Supports dynamic bookmarks mapped via LDAP attributes for personalized access.
 
-Data Plane Components
+**Data Plane Components**
 
 The data plane in AAG is responsible for handling user traffic, forwarding requests to backend applications, and enforcing security measures in real time. It processes encrypted sessions, inspects traffic for potential threats, and applies policy-based access controls. By managing the actual data exchange between users and applications, the data plane ensures that only authorized requests reach enterprise resources while maintaining performance and security.
 
-Application Publishing and Session Management
+**Application Publishing and Session Management**
 
 - Delivers HTML5-based clientless access for RDP, VNC, SSH, and Telnet.
 - Supports direct RDP and RemoteApp connections for seamless interaction.
 - Enforces RDP attribute-based policies to regulate session parameters.
 
-Access Control and Security Enforcement
+**Access Control and Security Enforcement**
 
 - Enforces IP Reputation, Geo IP Blocklist, and Allowlist through Application Profiles.
--Logs session details and access records for diagnostics and compliance.
+- Logs session details and access records for diagnostics and compliance.
 
 This architecture ensures a scalable, policy-driven remote access solution while maintaining strong security controls.
 
@@ -94,7 +94,7 @@ This architecture ensures a scalable, policy-driven remote access solution while
 
 The Agentless Application Gateway (AAG) configuration in FortiADC consists of two primary components: App Groups and App Portals. These components define how applications are published and accessed by authenticated users.
 
-App Portal Configuration
+**App Portal Configuration**
 
 An App Portal defines the web-based authentication interface where users log in and access applications. Each App Portal is associated with an App Group, controlling which applications are available to authenticated users.
 
@@ -124,29 +124,29 @@ To ensure efficient performance and prevent configuration errors, observe the fo
 |Bookmarks per App Group|256|
 |IdPs per Access Policy|8|
 
-Workflow for Configuring AAG in FortiADC
+**Workflow for Configuring AAG in FortiADC**
 
 ![](aag6.png)
 
-Step 1: Configure User Authentication
+**Step 1: Configure User Authentication**
 
-Select the appropriate authentication method based on deployment requirements.
+Select the appropriate authentication method based on your deployment requirements.
 - For local authentication, create a Local User and assign it to a User Group.
 - For remote authentication, configure a Remote Server (e.g., LDAP, RADIUS) and create a User Group.
--For SAML authentication, set up SAML IDP and SAML SP for federated authentication.
+- For SAML authentication, set up SAML IDP and SAML SP for federated authentication.
 
 For recommendations, see [Selecting the Optimal Authentication Method for AAG](https://docs.fortinet.com/document/fortiadc/8.0.0/administration-guide/819587/selecting-the-optimal-authentication-method-for-aag).
 
-Step 2: Configure the Agentless Application Gateway (AAG)
-- Create an App Group and add relevant Application Bookmarks. For details, see Configuring an App Group.
--Configure an App Portal and associate it with the App Group. For details, see Configuring an App Portal.
+**Step 2: Configure the Agentless Application Gateway (AAG)**
+- Create an App Group and add relevant Application Bookmarks. For details, see [Configuring an App Group](https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/539658/configuring-an-app-group).
+- Configure an App Portal and associate it with the App Group. For details, see [Configuring an App Portal](https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/422996/configuring-an-app-portal).
 
-Step 3: Configure Access Policies and Authorization
+**Step 3: Configure Access Policies and Authorization**
 Apply policies to enforce authentication and authorization.
-- Define an Access Policy that enforces the selected authentication method. For details, see Access Policy.
-- Assign User Groups to the App Portal based on access requirements. For details, see Configuring user groups.
+- Define an Access Policy that enforces the selected authentication method. For details, see [Access Policy](https://docs.fortinet.com/document/fortiadc/8.0.0/administration-guide/508351).
+- Assign User Groups to the App Portal based on access requirements. For details, see [Configuring user groups](https://docs.fortinet.com/document/fortiadc/8.0.0/cli-reference/277712).
 
-Step 4: Configure Virtual Server for Application Access
+**Step 4: Configure Virtual Server for Application Access**
 
 Set up application delivery through a virtual server.
 - Use the APP Access Application Profile to configure IP Reputation, Geo IP Blocklist, and Geo IP Allowlist.
