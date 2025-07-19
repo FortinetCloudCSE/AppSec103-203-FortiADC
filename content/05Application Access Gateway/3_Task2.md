@@ -94,24 +94,24 @@ Native RDP allows users to launch a full remote desktop session using an install
 ![](aag7a.png)
 
 
-|Parameter| Description                                                                                        |
-|---------|----------------------------------------------------------------------------------------------------|
-|Host| The IP address or hostname of the target Windows machine.                                          |
-|Port| The port used for the RDP connection (default: 3389, range: 1-65535).                              |
-|Description| 	Optional description for the Native RDP bookmark.                                                 |
-|Advanced Settings|                                                                                                    |
-|Redirect Clipboard| Allows clipboard sharing between the remote and local machine.                                     |
-|Redirect Drives| Enables access to local drives within the remote session.                                          |
-|Redirect Printers| Allows remote access to local printers.                                                            |
-|Redirect Microphone| Enables microphone redirection for remote audio input.                                             |
-|Redirect Camera| Enables camera redirection for video conferencing applications.                                    |
-|Multiple Monitor Support| Allows the remote session to span multiple monitors.                                               |
-|**Keyboard Hook Mode**| Defines how keyboard shortcuts (e.g., Alt+Tab) are handled in the session.                         |
-|| - On Local – Keyboard shortcuts remain on the local machine.                                       |
-|| - On Remote Desktop Focus – Shortcuts apply to the remote session only when it is the active window. |
-|| - On Remote Desktop Full Screen – Shortcuts apply to the remote session only when in full-screen mode. This is the default option.|
-|| - On Remote App Focus – Shortcuts apply to the remote application window, not the full desktop session.|
-|Custom Parameters|Additional RDP client parameters for advanced configurations.|
+| Parameter                | Description                                                                                        |
+|--------------------------|----------------------------------------------------------------------------------------------------|
+| Host                     | The IP address or hostname of the target Windows machine.                                          |
+| Port                     | The port used for the RDP connection (default: 3389, range: 1-65535).                              |
+| Description              | 	Optional description for the Native RDP bookmark.                                                 |
+| **Advanced Settings**    |                                                                                                    |
+| Redirect Clipboard       | Allows clipboard sharing between the remote and local machine.                                     |
+| Redirect Drives          | Enables access to local drives within the remote session.                                          |
+| Redirect Printers        | Allows remote access to local printers.                                                            |
+| Redirect Microphone      | Enables microphone redirection for remote audio input.                                             |
+| Redirect Camera          | Enables camera redirection for video conferencing applications.                                    |
+| Multiple Monitor Support | Allows the remote session to span multiple monitors.                                               |
+| **Keyboard Hook Mode**   | Defines how keyboard shortcuts (e.g., Alt+Tab) are handled in the session.                         |
+|                          | - On Local – Keyboard shortcuts remain on the local machine.                                       |
+|                          | - On Remote Desktop Focus – Shortcuts apply to the remote session only when it is the active window. |
+|                          | - On Remote Desktop Full Screen – Shortcuts apply to the remote session only when in full-screen mode. This is the default option.|
+|                          | - On Remote App Focus – Shortcuts apply to the remote application window, not the full desktop session.|
+| Custom Parameters        |Additional RDP client parameters for advanced configurations.|
 
 **RemoteApp**
 
@@ -124,27 +124,27 @@ RemoteApp provides access to specific applications hosted on a remote Windows se
 ![](aag5.png)
 ![](aag7a.png)
 
-| Parameter             | Description |
-|-----------------------|-|
-| Host                  | The IP address or hostname of the RemoteApp server. |
-| Port                  | The port used for the RemoteApp connection (default: 3389, range: 1-65535). |
-| Description           | Optional description for the RemoteApp bookmark. |
-| App Name              | The display name of the RemoteApp application. |
-| App Path              | The full path to the executable of the RemoteApp. |
-| App Parameters        | Additional command-line arguments for the RemoteApp. |
-| **Advanced Settings** | |
-| Redirect Clipboard    | Allows clipboard sharing between the remote and local machine.|
-| Redirect Drives       | Enables access to local drives within the RemoteApp session.|
-| Redirect Printers     | Allows remote access to local printers.|
-|Redirect Microphone| Enables microphone redirection for remote audio input.|
-|Redirect Camera| Enables camera redirection for video conferencing applications.|
-|Multiple Monitor Support| Allows the RemoteApp session to span multiple monitors.|
-|Keyboard Hook Mode| Defines how keyboard shortcuts (e.g., Alt+Tab) are handled in the session.|
-|| - On Local – Keyboard shortcuts remain on the local machine. |
-|| - On Remote Desktop Focus – Shortcuts apply to the remote session only when it is the active window. |
-|| - On Remote Desktop Full Screen – Shortcuts apply to the remote session only when in full-screen mode. This is the default option. |
-|| - On Remote App Focus – Shortcuts apply to the remote application window, not the full desktop session.|
-|Custom Parameters|Additional RDP client parameters for advanced configurations. |
+| Parameter                | Description |
+|--------------------------|-|
+| Host                     | The IP address or hostname of the RemoteApp server. |
+| Port                     | The port used for the RemoteApp connection (default: 3389, range: 1-65535). |
+| Description              | Optional description for the RemoteApp bookmark. |
+| App Name                 | The display name of the RemoteApp application. |
+| App Path                 | The full path to the executable of the RemoteApp. |
+| App Parameters           | Additional command-line arguments for the RemoteApp. |
+| **Advanced Settings**    | |
+| Redirect Clipboard       | Allows clipboard sharing between the remote and local machine.|
+| Redirect Drives          | Enables access to local drives within the RemoteApp session.|
+| Redirect Printers        | Allows remote access to local printers.|
+| Redirect Microphone      | Enables microphone redirection for remote audio input.|
+| Redirect Camera          | Enables camera redirection for video conferencing applications.|
+| Multiple Monitor Support | Allows the RemoteApp session to span multiple monitors.|
+| **Keyboard Hook Mode**   | Defines how keyboard shortcuts (e.g., Alt+Tab) are handled in the session.|
+|                          | - On Local – Keyboard shortcuts remain on the local machine. |
+|                          | - On Remote Desktop Focus – Shortcuts apply to the remote session only when it is the active window. |
+|                          | - On Remote Desktop Full Screen – Shortcuts apply to the remote session only when in full-screen mode. This is the default option. |
+|                          | - On Remote App Focus – Shortcuts apply to the remote application window, not the full desktop session.|
+| Custom Parameters        |Additional RDP client parameters for advanced configurations. |
 
 **Web VNC**
 
@@ -161,13 +161,13 @@ Web VNC (Virtual Network Computing) enables web-based remote access to graphical
 | **Advanced Settings** |                                                                       |
 | Username              | The username for VNC authentication, if required.                     |
 | Password              | The password for VNC authentication, if required.                     |
-| Color Depth           | Sets the color depth for the VNC session.                             |
+| **Color Depth**       | Sets the color depth for the VNC session.                             |
 |                       | - 8 Bit                                                               |
 |                       | - 16 Bit (Default)                                                    |
 |                       | - 32 Bit                                                              |
-|Screen Width|Specifies the width of the VNC session display. The default value is 1024, with a valid range of 200-8192.|
-|Screen Height|Specifies the height of the VNC session display. The default value is 768, with a valid range of 200-8192.|
-|Clipboard|Enables or disables clipboard sharing between the remote and local system.|
+| Screen Width          |Specifies the width of the VNC session display. The default value is 1024, with a valid range of 200-8192.|
+| Screen Height         |Specifies the height of the VNC session display. The default value is 768, with a valid range of 200-8192.|
+| Clipboard             |Enables or disables clipboard sharing between the remote and local system.|
 
 
 **Web SSH**
