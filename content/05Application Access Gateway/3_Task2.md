@@ -11,7 +11,7 @@ Each App Group can contain bookmarks of various types (Web, RDP, SSH, VNC, etc.)
 
 ![](aag3.png)
 
-To create an App Group:
+**To create an App Group:**
 
 1. Navigate to Application Access Manager > Agentless Application Gateway.
 The configuration page displays the App Portal tab.
@@ -86,7 +86,7 @@ Web RDP (Remote Desktop Protocol) provides web-based access to a remote Windows 
 |                       | - TLS encryption – Uses Transport Layer Security (TLS) for encrypted communication.                                             |
 | Clipboard             | Enables or disables clipboard sharing between the remote session and the local machine.                                         |
 
-Native RDP
+**Native RDP**
 
 Native RDP allows users to launch a full remote desktop session using an installed RDP client. Unlike Web RDP, which runs in a browser, Native RDP opens the session in the system's RDP client, providing a more responsive experience and leveraging full client-side capabilities, including peripheral redirection, multiple monitor support, and enhanced performance.
 
@@ -146,7 +146,7 @@ RemoteApp provides access to specific applications hosted on a remote Windows se
 || - On Remote App Focus – Shortcuts apply to the remote application window, not the full desktop session.|
 |Custom Parameters|Additional RDP client parameters for advanced configurations. |
 
-Web VNC
+**Web VNC**
 
 Web VNC (Virtual Network Computing) enables web-based remote access to graphical desktops on Linux, macOS, and other VNC-compatible systems. It is commonly used for remote system administration and technical support.
 
@@ -170,7 +170,7 @@ Web VNC (Virtual Network Computing) enables web-based remote access to graphical
 |Clipboard|Enables or disables clipboard sharing between the remote and local system.|
 
 
-Web SSH
+**Web SSH**
 
 Web SSH (Secure Shell) provides secure, web-based command-line access to remote Linux and Unix systems. It is commonly used for server administration and troubleshooting.
 
@@ -186,7 +186,7 @@ Web SSH (Secure Shell) provides secure, web-based command-line access to remote 
 | Username              |The SSH login username.|
 | Password              |The SSH login password (if password authentication is used).|
 
-Web TELNET
+**Web TELNET**
 
 Web Telnet provides browser-based access to network devices and legacy systems that use the Telnet protocol. It is commonly used for managing routers, switches, and older mainframe systems.
 
