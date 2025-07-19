@@ -2,7 +2,7 @@
 title: "Git Flow"
 linkTitle: "GitFlow"
 chapter: false
-weight: 5
+weight: 100
 ---
 
 ## GitHub Repo Getting Started (General Workflow for GitHub Repos)

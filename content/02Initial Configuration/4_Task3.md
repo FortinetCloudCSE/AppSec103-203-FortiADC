@@ -16,7 +16,7 @@ Once a server is added to the POOL we will need to define a health check so the 
 
 In the Next Few Steps we will Define Real Servers and use them to create a Server Pool .  We will start the process by defining health checks.
 
-- Go to **Server Load Balance/Real Server Pool** 
+- Go to **Server Load Balance -> Real Server Pool** 
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
 
@@ -56,7 +56,7 @@ Since we will be using two applications to run our lab we will repeat the above 
 
 In this section we will define two application servers.
 
-- Go to **Server Load Balance / Real Server Pool**
+- Go to **Server Load Balance -> Real Server Pool**
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
 - **Save**
@@ -81,14 +81,14 @@ In this section we will define two application servers.
 
 Next we add the servers to a server pool.
 
-- Go to **Server Load Balance / Real Server Pool**
+- Go to **Server Load Balance -> Real Server Pool**
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
 
 ![](fad-serverpool.png)
 
 - **Name:** DVWA 
-- **HealthCheck:** enable the toggle for health check and add the builtin LB_HLTCHK_ICMP
+- **Health Check:** enable the toggle for health check and add the builtin LB_HLTCHK_ICMP
 - Click **Save**  to save the configuration 
 
 ![](dvwa-svrpool.png)
