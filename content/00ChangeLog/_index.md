@@ -4,13 +4,23 @@ linkTitle: "What's New"
 weight: 5
 ---
 
-### New for FortiADC
+### This is a list of new features and/or changes in a given version
 
 ---
 
-## Version 8.0.0
+### 2025
 
-### Application Access Gateway (AAG)
+**FortiADC version 8.0.0**
+- [Application Access Manager](https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/875071/application-access-manager)
+- [Web Application Firewall](https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/456019/web-application-firewall)
+- [System](https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/161472/system)
+- [Server Load Balance](https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/123630/server-load-balance)
+- [Network Security](https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/994419/network-security)
+- [GUI](https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/439396/gui)
+- [Platform](https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/513376/platform)
+- [Troubleshooting](https://docs.fortinet.com/document/fortiadc/8.0.0/new-features/243531/troubleshooting)
+
+### Application Access Gateway
 
 ![](aag.png)
 

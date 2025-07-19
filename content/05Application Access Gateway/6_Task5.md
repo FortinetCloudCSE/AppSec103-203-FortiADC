@@ -32,7 +32,7 @@ Once authenticated, FortiADC initializes a user session, enforces idle timeouts,
 
 Upon successful login, users are presented with the AAG App Portal interface. The interface is browser-based, intuitive, and dynamically reflects the user's access permissions.
 
-The portal includes:
+**The portal includes:**
 - Application Tiles – Icons representing RDP, SSH, VNC, or web-based resources.
 - App Grouping – Applications grouped by assigned App Group.
 - User Information – Includes user information and option to logout.
@@ -56,7 +56,7 @@ RDP connections honor the settings configured in the APP Access profile:
 
 Users can track their active sessions within the portal and safely log out once done. FortiADC enforces session cleanup and authentication token removal on logout.
 
-Session-related capabilities:
+**Session-related capabilities:**
 - Switching Between Applications – Seamless navigation without reauthentication.
 - Manual Logout – Ends session and removes tokens.
 
