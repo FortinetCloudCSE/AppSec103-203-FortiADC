@@ -21,7 +21,7 @@ FortiADC supports multiple authentication mechanisms for AAG access, all enforce
 
 **Authentication Deployment Considerations**
 
-**Local User Authentication**
+Local User Authentication
 
 - Local user accounts are defined and stored directly on FortiADC. This method is suitable for small deployments or administrative access when external identity systems are unavailable. Local users can be assigned to User Groups and linked to App Portals via Access Policies.
 - **Pros:** Simple configuration, independent of external systems
