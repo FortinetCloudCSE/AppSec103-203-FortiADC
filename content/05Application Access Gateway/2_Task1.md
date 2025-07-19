@@ -19,9 +19,9 @@ FortiADC supports multiple authentication mechanisms for AAG access, all enforce
 
 **Multi-factor authentication (MFA) is not currently supported in the initial AAG release. Although FortiADC supports MFA in general access policies, these features are not enforced at the AAG App Portal level.**
 
-Authentication Deployment Considerations
+**Authentication Deployment Considerations**
 
-Local User Authentication
+**Local User Authentication**
 
 - Local user accounts are defined and stored directly on FortiADC. This method is suitable for small deployments or administrative access when external identity systems are unavailable. Local users can be assigned to User Groups and linked to App Portals via Access Policies.
 - **Pros:** Simple configuration, independent of external systems
