@@ -47,7 +47,7 @@ The next step is to configure a virtual server, which defines the type of traffi
 
 ![](fad-vs-dvwa-basic.png)
 
-- Go to the **General** TAB 
+- Go to the **General** Tab 
 - **Address:** 10.1.2.101
 - **Port:** 443
 - **Interface:** Port1 (from the dropdown Menu) 
