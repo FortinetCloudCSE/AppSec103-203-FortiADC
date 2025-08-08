@@ -4,7 +4,7 @@ linkTitle: "Virtual Servers"
 chapter: false
 weight: 4
 ---
-### **Define Virtual Servers*
+### **Define Virtual Servers**
 
 The next step is to configure a virtual server, which defines the type of traffic FortiADC will manage and how it will be processed. For this exercise, we will create two virtual servers, one for each of our web applications, while using the default settings wherever possible.
 
