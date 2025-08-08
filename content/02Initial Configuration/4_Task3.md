@@ -14,7 +14,7 @@ When FortiADC is deployed in L7 mode (reverse proxy), a new TCP session is estab
 
 Once a server is added to the POOL we will need to define a health check so the FADC  can determine the status or availability of a server before forwarding a request to the server.
 
-In the Next Few Steps we will Define Real Servers and use them to create a Server Pool .  We will start the process by defining health checks.
+In the Next Few Steps we will define Real Servers and use them to create a Server Pool .  We will start the process by defining health checks.
 
 - Go to **Server Load Balance -> Real Server Pool** 
 - Click on the **Real Server Pool** Tab
