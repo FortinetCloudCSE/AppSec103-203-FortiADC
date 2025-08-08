@@ -21,12 +21,12 @@ The next step is to configure a virtual server, which defines the type of traffi
 - Go to the **General** TAB 
 - **Address:** 10.1.2.100
 - **Port:** 443
-- **Interface:** Port2 ( from the dropdown Menu) 
+- **Interface:** Port1 ( from the dropdown Menu) 
 - **Profile:** LB_PROF_HTTPS
 - **Client SSL Profile:** LB_CLIENT_SSL_PROF_DEFAULT
 - **Persistence:** LB_PERSIS_SSL_SESS_ID
 - **Method:** LB_METHOD_ROUNDROBIN
-- **Real Server Pool:** WEB-APPLICATION
+- **Real Server Pool:** Web-Application
 
 ![](fad-vs-general.png)
 
@@ -50,7 +50,7 @@ The next step is to configure a virtual server, which defines the type of traffi
 - Go to the **General** TAB 
 - **Address:** 10.1.2.101
 - **Port:** 443
-- **Interface:** Port2 ( from the dropdown Menu) 
+- **Interface:** Port1 ( from the dropdown Menu) 
 - **Profile:** LB_PROF_HTTPS
 - **Client SSL Profile:** LB_CLIENT_SSL_PROF_DEFAULT
 - **Persistence:** LB_PERSIS_SSL_SESS_ID
