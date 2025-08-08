@@ -50,7 +50,7 @@ Your finished server pool should look like this.
 
 ![](finished-svr-pool1.png)
 
-Since we will be using two applications to run our lab we will repeat the above steps again to define our second Real server Pool. 
+Because we will be using two applications to run our lab, we will repeat the above steps again to define our second Real Server Pool. 
 
 **Create Real Servers for the 2nd Application**
 
