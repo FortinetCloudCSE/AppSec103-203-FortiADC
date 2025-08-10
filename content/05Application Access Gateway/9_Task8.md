@@ -18,6 +18,7 @@ A quick start lab guide on how to set up the Application Access Gateway using a 
 8. Test
 
 **Configure a Local User**
+- Login to the FortiADC with the username ```admin``` and password ```fortinet```
 - Go to **Application Access Manager > Local User**
 - Click **+Create New**
 
@@ -149,7 +150,7 @@ You should see your Application Access Gateway.
 ![](aag-qlg-fortiview.png)
 
 **Test AAG Access**
-- Log into the Client
+- RDP to the Client
 - Open Firefox
 - Go to https://10.1.1.100:9443
 
