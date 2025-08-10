@@ -1,7 +1,7 @@
 ---
 title: "AAG Debugging and Troubleshooting"
 linkTitle: "AAG Troubleshooting"
-weight: 7 
+weight: 8 
 ---
 
 ### AAG Debugging and Troubleshooting
