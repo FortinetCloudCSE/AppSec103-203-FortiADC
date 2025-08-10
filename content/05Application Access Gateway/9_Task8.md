@@ -1,11 +1,11 @@
 ---
-title: "AAG Quick Lab Guide"
-linkTitle: "AAG Quick Lab Guide"
+title: "AAG Quick Start Lab Guide"
+linkTitle: "AAG Quick Start Lab Guide"
 weight: 7 
 ---
 
-### AAG Quick Lab Guide
-A quick guide on how to set up the Application Access Gateway using a local user account.
+### AAG Quick Start Lab Guide
+A quick start lab guide on how to set up the Application Access Gateway using a local user account.
 
 **Workflow:**
 1. Create a local user
