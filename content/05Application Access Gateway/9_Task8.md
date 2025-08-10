@@ -90,7 +90,7 @@ A quick guide on how to set up the Application Access Gateway using a local user
 ![](aag-qlg-access-policy.png)
 
 - Name: **AAG-Access-Policy**
-- Set the **"App Portal Access"** ON
+- Set the **App Portal Access** flag to ON
 - **SAVE**
 
 ![](aag-qlg-access-policy1.png)
