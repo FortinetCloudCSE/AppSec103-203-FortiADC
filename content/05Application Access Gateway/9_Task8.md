@@ -26,7 +26,7 @@ A quick start lab guide on how to set up the Application Access Gateway using a 
 
 - Name: **user1**
 - Password: **user1**
-- **SAVE**
+- **Save**
 
 ![](aag-qlg-user-form.png)
 
@@ -34,14 +34,14 @@ A quick start lab guide on how to set up the Application Access Gateway using a 
 - Go to **Application Access Manager > User Group**
 - Click **+Create New**
 - Group Name: **AAG-Users** 
-- **SAVE**
+- **Save**
 - Click **+Create New**
 
 ![](aag-qlg-user-form1.png)
 
 - Type: **Local**
 - Local User: **user1**
-- **SAVE**
+- **Save**
 
 ![](aag-qlg-user-form2.png)
 
@@ -52,7 +52,7 @@ A quick start lab guide on how to set up the Application Access Gateway using a 
 ![](aag-qlg-aag.png)
 
 - Name: **AAG-App-Group**
-- **SAVE**
+- **Save**
 - Click **+Create New**
 
 ![](aag-qlg-app-access-adv.png)
@@ -64,8 +64,8 @@ A quick start lab guide on how to set up the Application Access Gateway using a 
 - Set the **Advanced Setting** flag to **ON**
 - Username: xperts2025
 - Password: *********
-- **SAVE**
-- **SAVE**
+- **Save**
+- **Save**
 
 **Configure the AAG Application Portal**
 - Go to **Application Access Manager > Agentless Application Gateway > App Portal**
@@ -74,15 +74,15 @@ A quick start lab guide on how to set up the Application Access Gateway using a 
 ![](aag-qlg-app-portal.png)
 
 - Name: **AAG-App-Portal**
-- **SAVE**
+- **Save**
 - Click **+Create New**
 
 ![](aag-qlg-aag-app-portal1.png)
 
 - Title: **AAG-App-Portal**
 - App Group: **AAG-App-Group**
-- **SAVE**
-- **SAVE**
+- **Save**
+- **Save**
 
 **Configure the AAG Application Access Policy**
 - Go to **Application Access Manager > Agentless Application Gateway > Access Policy**
@@ -92,7 +92,7 @@ A quick start lab guide on how to set up the Application Access Gateway using a 
 
 - Name: **AAG-Access-Policy**
 - Set the **App Portal Access** flag to ON
-- **SAVE**
+- **Save**
 
 ![](aag-qlg-access-policy1.png)
 
@@ -103,8 +103,8 @@ A quick start lab guide on how to set up the Application Access Gateway using a 
 - Name: **AAG-Portal-Users**
 - User Group: **AAG-Users**
 - App Portal: **AAG-App-Portal**
-- **SAVE**
-- **SAVE**
+- **Save**
+- **Save**
 
 **Configure a Virtual Server for the AAG**
 - Go to **Server Load Balance > Virtual Server**
@@ -139,7 +139,7 @@ No need to save yet.
 ![](aag-qlg-vs-monitoring.png)
 
 - Toggle the **Traffic Log** flag to ON
-- **SAVE**
+- **Save**
 
 **Note:** Traffic logging should be used mainly for debugging; traffic logging will consume extensive memory and CPU resources. Please disable traffic logging after debugging is complete.
 
