@@ -7,7 +7,7 @@ weight: 4
 ### **Define Virtual Servers**
 
 The next step is to configure a virtual server, which defines the type of traffic FortiADC will manage and how it will be processed. For this exercise, we will create two virtual servers, one for each of our web applications, while using the default settings wherever possible.
-
+- Login to the FortiADC with username ```admin``` and password ```fortinet```
 - Go to **Server Load Balance -> Virtual Server**
 - Click on **+Create New** then **Advanced Mode**
 
@@ -30,10 +30,10 @@ The next step is to configure a virtual server, which defines the type of traffi
 
 ![](fad-vs-general.png)
 
-- Go to the **Monitoring** TAB
+- Go to the **Monitoring** Tab
 - **Traffic Log:** Enable the Toggle
 - **FortiView:** Enable the Toggle
-- Click **Save**
+- **Save**
 
 ![](fad-vs-monitoring.png)
 
@@ -59,10 +59,10 @@ The next step is to configure a virtual server, which defines the type of traffi
 
 ![](fad-vs-dvwa-general.png)
 
-- Go to the **Monitoring** TAB
+- Go to the **Monitoring** Tab
 - **Traffic Log:** Enable the Toggle
 - **FortiView:** Enable the Toggle
-- Click **Save**
+- **Save**
 
 ![](fad-vs-dvwa-monitoring.png)
 

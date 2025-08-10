@@ -8,7 +8,7 @@ weight: 2
 ### **Real Servers**
 
 In this section we will define two application servers. 
-
+- Login to the FortiADC with username ```admin``` and password ```fortinet```
 - Go to **Server Load Balance -> Real Server Pool**
 - Click on the **Real Server** Tab 
 - Click on **+Create New**

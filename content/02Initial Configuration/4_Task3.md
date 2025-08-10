@@ -15,7 +15,7 @@ When FortiADC is deployed in L7 mode (reverse proxy), a new TCP session is estab
 Once a server is added to the POOL we will need to define a health check so the FADC  can determine the status or availability of a server before forwarding a request to the server.
 
 In the Next Few Steps we will define Real Servers and use them to create a Server Pool .  We will start the process by defining health checks.
-
+- Login to the FortiADC with username ```admin``` and password ```fortinet```
 - Go to **Server Load Balance -> Real Server Pool** 
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
@@ -24,7 +24,7 @@ In the Next Few Steps we will define Real Servers and use them to create a Serve
 
 - **Name:** Web-Application 
 - **HealthCheck:** enable the toggle for health check and add the health check we created earlier
-- Click **Save** 
+- **Save** 
 
 _Please note that if there is a requirement to encrypt the traffic between FortiADC and the application servers, you must configure the Real Server SSL profile and enable it within the server pool definition._
 
@@ -55,7 +55,7 @@ Because we will be using two applications to run our lab, we will repeat the abo
 **Create Real Servers for the 2nd Application**
 
 In this section we will define two application servers.
-
+- Login to the FortiADC with username ```admin``` and password ```fortinet```
 - Go to **Server Load Balance -> Real Server Pool**
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
@@ -89,7 +89,7 @@ Next we add the servers to a server pool.
 
 - **Name:** DVWA 
 - **Health Check:** enable the toggle for health check and add the builtin LB_HLTCHK_ICMP
-- Click **Save**  to save the configuration 
+- **Save** 
 
 ![](dvwa-svrpool.png)
 
