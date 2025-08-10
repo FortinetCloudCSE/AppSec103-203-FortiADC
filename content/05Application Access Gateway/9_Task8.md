@@ -25,21 +25,15 @@ A quick guide on how to set up the Application Access Gateway using a local user
 
 - Name: **user1**
 - Password: **user1**
-- Click **SAVE**
+- **SAVE**
 
 ![](aag-qlg-user-form.png)
 
 **Configure a User Group**
 - Go to **Application Access Manager > User Group**
 - Click **+Create New**
-
-![](aag-qlg.png)
-
 - Group Name: **AAG-Users** 
 - **SAVE**
-
-![](aag-qlg-user-form.png)
-
 - Click **+Create New**
 
 ![](aag-qlg-user-form1.png)
@@ -57,7 +51,7 @@ A quick guide on how to set up the Application Access Gateway using a local user
 ![](aag-qlg-aag.png)
 
 - Name: **AAG-App-Group**
-- Click **SAVE**
+- **SAVE**
 - Click **+Create New**
 
 ![](aag-qlg-app-access-adv.png)
@@ -79,15 +73,15 @@ A quick guide on how to set up the Application Access Gateway using a local user
 ![](aag-qlg-app-portal.png)
 
 - Name: **AAG-App-Portal**
-- Click **SAVE**
+- **SAVE**
 - Click **+Create New**
 
 ![](aag-qlg-aag-app-portal1.png)
 
 - Title: **AAG-App-Portal**
 - App Group: **AAG-App-Group**
-- Click **SAVE**
-- Click **SAVE**
+- **SAVE**
+- **SAVE**
 
 **Configure the AAG Application Access Policy**
 - Go to **Application Access Manager > Agentless Application Gateway > Access Policy**
@@ -97,7 +91,7 @@ A quick guide on how to set up the Application Access Gateway using a local user
 
 - Name: **AAG-Access-Policy**
 - Set the **"App Portal Access"** ON
-- Click **SAVE**
+- **SAVE**
 
 ![](aag-qlg-access-policy1.png)
 
@@ -108,8 +102,8 @@ A quick guide on how to set up the Application Access Gateway using a local user
 - Name: **AAG-Portal-Users**
 - User Group: **AAG-Users**
 - App Portal: **AAG-App-Portal**
-- Click **SAVE**
-- Click **SAVE**
+- **SAVE**
+- **SAVE**
 
 **Configure a Virtual Server for the AAG**
 - Go to **Server Load Balance > Virtual Server**
@@ -125,6 +119,9 @@ A quick guide on how to set up the Application Access Gateway using a local user
 **Note:** There is no need to save yet.  We will go to the **General** TAB and the **Monitoring** TAB then save the whole thing.
 
 - Click on the **General** Tab
+
+![](aag-qlg-vs-gen.png)
+
 - Address: **10.1.2.100**
 - Port: **9443**
 - Interface: **Port1**
@@ -141,15 +138,15 @@ No need to save yet.
 ![](aag-qlg-vs-monitoring.png)
 
 - Toggle the **Traffic Log** flag to ON
-- Click **SAVE**
+- **SAVE**
 
 **Note:** Traffic logging should be used mainly for debugging; traffic logging will consume extensive memory and CPU resources. Please disable traffic logging after debugging is complete.
 
 Go to **FortiView > Logical Topology**
 
-![](aag-qlg-fortiview.png)
-
 You should see your Application Access Gateway.
+
+![](aag-qlg-fortiview.png)
 
 **Test AAG Access**
 - Log into the Client
