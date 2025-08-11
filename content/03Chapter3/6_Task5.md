@@ -1,5 +1,5 @@
 ---
-title: "Configuration steps"
+title: "Virtual Server"
 linkTitle: "Virtual Server"
 chapter: false
 weight: 80

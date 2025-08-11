@@ -1,5 +1,5 @@
 ---
-title: "Configuration steps"
+title: "WAF Profile"
 linkTitle: "WAF Profile"
 chapter: false
 weight: 70
@@ -16,7 +16,7 @@ Now, we will create a WAF profile and associate the Adaptive Learning profiles (
 
 ![WAF-Profile9](WAF-Profile9.png)
 
-* Name: **JuiceShop**
+* Name: ```JuiceShop```
 * Adaptive Learning: Select **JuiceShop** from the dropdown
 * Click **Save**
 
@@ -32,7 +32,7 @@ Now, we will create a WAF profile and associate the Adaptive Learning profiles (
 
 ![WAF-Profile11](WAF-Profile11.png)
 
-* Name: **DVWA**
+* Name: ```DVWA```
 * Adaptive Learning: Select **DVWA** from the dropdown
 * Click **Save**
 

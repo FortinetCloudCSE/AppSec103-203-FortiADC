@@ -1,6 +1,6 @@
 ---
-title: "Configuration steps"
-linkTitle: "Adaptive Learning profile"
+title: "Adaptive Learning Configuration"
+linkTitle: "Adaptive Learning Configuration"
 chapter: false
 weight: 60
 ---
@@ -23,11 +23,11 @@ The configuration steps will be as follows:
 
 ![Adaptive-Learning](Adaptive-Learning1.png)
 
-* Name: **JuiceShop**
+* Name: ```JuiceShop```
 * Status: **Enable** the toggle
-* Sampling Rate: **100**
-* False Positive Threshold: **100000**
-* Learning Time: **1**
+* Sampling Rate: ```100```
+* False Positive Threshold: ```100000```
+* Learning Time: ```1```
 * Click **Save**
 
 ![JuiceShop-Adaptive-Learning2](JuiceShop-Adaptive-Learning2.png)  
@@ -36,7 +36,7 @@ The configuration steps will be as follows:
 
 ![JuiceShop-Adaptive-Learning3](JuiceShop-Adaptive-Learning3.png)
 
-* On the URL List page, type **/*** under URL textbox
+* On the URL List page, type **/** under URL textbox
 * Click **Save**
 * Click **Save** again
 
@@ -47,11 +47,11 @@ The configuration steps will be as follows:
 
 **We will repeat the same steps for the second application**
 
-* Name: **DVWA**
+* Name: ```DVWA```
 * Status: **Enable** the toggle
-* Sampling Rate: **100**
-* False Positive Threshold: **100000**
-* Learning Time: **1**
+* Sampling Rate: ```100```
+* False Positive Threshold: ```100000```
+* Learning Time: ```1```
 * Click **Save**
 
 ![DVWA-Adaptive-Learning5](DVWA-Adaptive-Learning5.png)

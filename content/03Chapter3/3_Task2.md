@@ -1,6 +1,6 @@
 ---
 title: "Adaptive Learning"
-linkTitle: "Adaptive Learning"
+linkTitle: "What is Adaptive Learning"
 chapter: false
 weight: 50
 ---
