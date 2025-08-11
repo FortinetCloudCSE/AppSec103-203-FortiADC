@@ -1,7 +1,7 @@
 ---
 title: "Security"
 chapter: false
-linkTitle: "Ch 3: Security"
+linkTitle: "Security"
 weight: 30
 ---
 
