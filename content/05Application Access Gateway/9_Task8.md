@@ -62,7 +62,7 @@ A quick start lab guide on how to set up the Application Access Gateway using a 
 - Host: **10.1.3.4**
 - Port: **22**
 - Set the **Advanced Setting** flag to **ON**
-- Username: xperts2025
+- Username: **xperts2025**
 - Password: *********
 - **Save**
 - **Save**
