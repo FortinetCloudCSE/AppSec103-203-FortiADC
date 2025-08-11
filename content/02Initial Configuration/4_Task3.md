@@ -26,7 +26,8 @@ In the Next Few Steps we will define Real Servers and use them to create a Serve
 - HealthCheck: enable the toggle for health check and add the **Web_Application** health check we created earlier.
 - **Save** 
 
-_Please note that if there is a requirement to encrypt the traffic between FortiADC and the application servers, you must configure the Real Server SSL profile and enable it within the server pool definition._
+> [!Info]
+> Please note that if there is a requirement to encrypt the traffic between FortiADC and the application servers, you must configure the Real Server SSL profile and enable it within the server pool definition.
 
 ![](fad-serverpool1.png)
 
