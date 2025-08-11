@@ -15,22 +15,22 @@ In this section we will define two application servers.
 
 ![](fad-real-server.png)
 
-- **Name:** APP-Server1
-- **Server Type:** Static
-- **Status:** Enable
-- **Type:** IP
-- **Address:** 10.1.3.4
+- Name: **APP-Server1**
+- Server Type: **Static**
+- Status: **Enable**
+- Type: **IP**
+- Address: **10.1.3.4**
 - **Save**
 
 ![](fad-appserver1.png)
 
 We will repeat the same steps as above to add the second application server. 
 
-- **Name:** APP-Server2
-- **Server Type:** Static
-- **Status:** Enable
-- **Type:** IP
-- **Address:** 10.1.3.5
+- Name: **APP-Server2**
+- Server Type: **Static**
+- Status: **Enable**
+- Type: **IP**
+- Address: **10.1.3.5**
 - **Save**
 
 ![](fad-appserver2.png)

@@ -22,8 +22,8 @@ In the Next Few Steps we will define Real Servers and use them to create a Serve
 
 ![](fad-serverpool.png)
 
-- **Name:** Web-Application 
-- **HealthCheck:** enable the toggle for health check and add the health check we created earlier
+- Name: **Web-Application**
+- HealthCheck: enable the toggle for health check and add the **Web_Application** health check we created earlier.
 - **Save** 
 
 _Please note that if there is a requirement to encrypt the traffic between FortiADC and the application servers, you must configure the Real Server SSL profile and enable it within the server pool definition._
@@ -34,13 +34,13 @@ _Please note that if there is a requirement to encrypt the traffic between Forti
 
 ![](fad-serverpool2.png)
 
-- **Real Server:**  APP-Server1 from the drop down menu
+- Real Server: **APP-Server1** from the drop down menu
 - Accept default values for the other options
 - **Save**
 
 ![](pool-mbr1a.png)
 
-- **Real Server:**  APP-Server1 from the drop down menu
+- Real Server: **APP-Server2** from the drop down menu
 - Accept default values for the other options
 - **Save**
 
@@ -63,20 +63,20 @@ In this section we will define two application servers.
 
 ![](svr-dvwa1.png)
 
-- **Name:** DVWA1
-- **Server Type:** Static
-- **Status:** Enable
-- **Type:** IP
-- **Address:** 10.1.3.4
+- Name: **DVWA1**
+- Server Type: **Static**
+- Status: **Enable**
+- Type: **IP**
+- Address: **10.1.3.4**
 - **Save**
 
 ![](svr-dvwa2.png)
 
-- **Name:** DVWA2
-- **Server Type:** Static
-- **Status:** Enable
-- **Type:** IP
-- **Address:** 10.1.3.5
+- Name: **DVWA2**
+- Server Type: **Static**
+- Status: **Enable**
+- Type: **IP**
+- Address: **10.1.3.5**
 - **Save**
 
 Next we add the servers to a server pool.
@@ -87,8 +87,8 @@ Next we add the servers to a server pool.
 
 ![](fad-serverpool.png)
 
-- **Name:** DVWA 
-- **Health Check:** enable the toggle for health check and add the builtin LB_HLTCHK_ICMP
+- Name: **DVWA** 
+- Health Check: enable the toggle for health check and add the builtin **LB_HLTCHK_ICMP**
 - **Save** 
 
 ![](dvwa-svrpool.png)
