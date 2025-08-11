@@ -13,20 +13,20 @@ The next step is to configure a virtual server, which defines the type of traffi
 
 ![](fad-vs.png)
 
-- **Name:** Juiceshop
-- **Type:** Layer7
+- Name: **Juiceshop**
+- Type: **Layer 7**
 
 ![](fad-vs-basic.png)
 
-- Go to the **General** TAB 
-- **Address:** 10.1.2.100
-- **Port:** 443
-- **Interface:** Port1 ( from the dropdown Menu) 
-- **Profile:** LB_PROF_HTTPS
-- **Client SSL Profile:** LB_CLIENT_SSL_PROF_DEFAULT
-- **Persistence:** LB_PERSIS_SSL_SESS_ID
-- **Method:** LB_METHOD_ROUNDROBIN
-- **Real Server Pool:** Web-Application
+- Go to the **General** Tab 
+- Address: **10.1.2.100**
+- Port: **443**
+- Interface: **Port1** ( from the dropdown Menu) 
+- Profile: **LB_PROF_HTTPS**
+- Client SSL Profile: **LB_CLIENT_SSL_PROF_DEFAULT**
+- Persistence: **LB_PERSIS_SSL_SESS_ID**
+- Method: **LB_METHOD_ROUNDROBIN**
+- Real Server Pool: **Web-Application**
 
 ![](fad-vs-general.png)
 
@@ -42,20 +42,20 @@ The next step is to configure a virtual server, which defines the type of traffi
 
 ![](fad-vs.png)
 
-- **Name:** DVWA
-- **Type:** Layer7
+- Name: **DVWA**
+- Type: **Layer 7**
 
 ![](fad-vs-dvwa-basic.png)
 
 - Go to the **General** Tab 
-- **Address:** 10.1.2.101
-- **Port:** 443
-- **Interface:** Port1 (from the dropdown Menu) 
-- **Profile:** LB_PROF_HTTPS
-- **Client SSL Profile:** LB_CLIENT_SSL_PROF_DEFAULT
-- **Persistence:** LB_PERSIS_SSL_SESS_ID
-- **Method:** LB_METHOD_ROUNDROBIN
-- **Real Server Pool:** DVWA
+- Address: **10.1.2.101**
+- Port: **443**
+- Interface: **Port1** (from the dropdown Menu) 
+- Profile: **LB_PROF_HTTPS**
+- Client SSL Profile: **LB_CLIENT_SSL_PROF_DEFAULT**
+- Persistence: **LB_PERSIS_SSL_SESS_ID**
+- Method: **LB_METHOD_ROUNDROBIN**
+- Real Server Pool: **DVWA**
 
 ![](fad-vs-dvwa-general.png)
 

@@ -14,9 +14,9 @@ In server load balancing deployments, the system uses health checks to poll the 
 
 ![](fad-shared-resources.png)
 
-- **Name:** Web_Application
-- **Type:** HTTP
-- **Port:** 0
+- Name: **Web_Application**
+- Type: **HTTP**
+- Port: **0**
 - **Save**
 
 Notice that when you change the Type to HTTP, additional options related to HTTP become available, such as method, version, response code, and authentication requirements. For this exercise, we will accept the default values for all other entries except those defined above.
