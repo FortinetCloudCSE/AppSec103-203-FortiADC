@@ -117,7 +117,7 @@ A quick start lab guide on how to set up the Application Access Gateway using a 
 
 ![](aag-qlg-vs1.png)
 
-**Note:** There is no need to save yet.  We will go to the **General** TAB and the **Monitoring** TAB then save the whole thing.
+**Note:** There is no need to save yet.  We will go to the **General** Tab and the **Monitoring** TAB then save the whole thing.
 
 - Click on the **General** Tab
 
