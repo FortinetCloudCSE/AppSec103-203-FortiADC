@@ -19,6 +19,7 @@ In server load balancing deployments, the system uses health checks to poll the 
 - Port: **0**
 - **Save**
 
-Notice that when you change the Type to HTTP, additional options related to HTTP become available, such as method, version, response code, and authentication requirements. For this exercise, we will accept the default values for all other entries except those defined above.
+> [!Info]
+> Notice that when you change the Type to HTTP, additional options related to HTTP become available, such as method, version, response code, and authentication requirements. For this exercise, we will accept the default values for all other entries except those defined above.
 
 ![](web-app-healthck.png)
