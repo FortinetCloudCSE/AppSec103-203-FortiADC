@@ -110,7 +110,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 <img src=aag-qlg-access-policy.png>
 
 - Name: **AAG-Access-Policy**
-- Set the **App Portal Access** flag to ON
+- Set the **App Portal Access** flag to **ON**
 - **Save**
 
 <img src=aag-qlg-access-policy1.png>
