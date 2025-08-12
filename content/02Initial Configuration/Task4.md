@@ -25,7 +25,7 @@ The next step is to configure a virtual server, which defines the type of traffi
 - Profile: **LB_PROF_HTTPS**
 - Client SSL Profile: **LB_CLIENT_SSL_PROF_DEFAULT**
 - Persistence: **LB_PERSIS_SSL_SESS_ID**
-- Method: **LB_METHOD_ROUNDROBIN**
+- Method: **LB_METHOD_ROUND_ROBIN**
 - Real Server Pool: **Web-Application**
 
 ![](fad-vs-general.png)
@@ -54,7 +54,7 @@ The next step is to configure a virtual server, which defines the type of traffi
 - Profile: **LB_PROF_HTTPS**
 - Client SSL Profile: **LB_CLIENT_SSL_PROF_DEFAULT**
 - Persistence: **LB_PERSIS_SSL_SESS_ID**
-- Method: **LB_METHOD_ROUNDROBIN**
+- Method: **LB_METHOD_ROUND_ROBIN**
 - Real Server Pool: **DVWA**
 
 ![](fad-vs-dvwa-general.png)
