@@ -4,7 +4,7 @@ linkTitle: "What's New"
 weight: 5
 ---
 
-### This is a partial list of new features for FortiADC
+### A partial list of new features for FortiADC
 
 ---
 
