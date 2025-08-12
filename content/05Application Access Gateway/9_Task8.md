@@ -163,7 +163,7 @@ No need to save yet.
 
 <img src=aag-qlg-vs-monitoring.png>
 
-- Toggle the **Traffic Log** flag to ON
+- Toggle the **Traffic Log** flag to **ON**
 - **Save**
 
 > [!Info]
