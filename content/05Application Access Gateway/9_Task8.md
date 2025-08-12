@@ -5,7 +5,7 @@ weight: 7
 ---
 
 ### AAG Quick Start Lab Guide
-A quick start lab guide on how to set up the Application Access Gateway using a local user account.
+A Quick Start Lab Guide on how to set up the Application Access Gateway using a local user account.
 
 **Workflow:**
 
