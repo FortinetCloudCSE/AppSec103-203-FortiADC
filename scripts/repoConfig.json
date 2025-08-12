@@ -8,6 +8,9 @@
   "errorLevel":"warning",
   "googleServicesID":"G-5RZBH288ST",
   "marketingCode": "FortiHugo202",
+  "bannerLine1":"AppSec103-203-FortiADC",
+  "bannerLine2":"WAF Adapting Learning and AAG",
+  "bannerLine3":"",
   "shortcuts": [
   {
     "text": "Fortinet Cloud CSE GitHub Org",
