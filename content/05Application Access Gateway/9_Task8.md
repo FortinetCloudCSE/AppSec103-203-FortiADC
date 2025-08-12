@@ -22,7 +22,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 **Configure A local User**
 
 - Login to the FortiADC with the username ```admin``` and password ```fortinet```
-- Go to **Application Access Manager > Local User**
+- Go to **Application Access Manager → Local User**
 - Click **+Create New**
 
 <img src=aag-qlg-local-user.png>
@@ -38,7 +38,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 {{% expand title="Configure a User Group" %}}
 
 **Configure a User Group**
-- Go to **Application Access Manager > User Group**
+- Go to **Application Access Manager → User Group**
 - Click **+Create New**
 - Group Name: **AAG-Users** 
 - **Save**
@@ -57,7 +57,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 {{% expand title="Configure the AAG Application Group" %}}
 
 **Configure the AAG Application Group**
-- Go to **Application Access Manager > Agentless Application Gateway > App Group**
+- Go to **Application Access Manager → Agentless Application Gateway → App Group**
 - Click **+Create New**
 
 <img src=aag-qlg-aag.png>
@@ -83,7 +83,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 {{% expand title="Configure the AAG Application Portal" %}}
 
 **Configure the AAG Application Portal**
-- Go to **Application Access Manager > Agentless Application Gateway > App Portal**
+- Go to **Application Access Manager → Agentless Application Gateway → App Portal**
 - Click **+Create New**
 
 <img src=aag-qlg-app-portal.png>
@@ -104,7 +104,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 {{% expand title="Configure the AAG Application Access Policy" %}}
 
 **Configure the AAG Application Access Policy**
-- Go to **Application Access Manager > Agentless Application Gateway > Access Policy**
+- Go to **Application Access Manager → Agentless Application Gateway → Access Policy**
 - Click **+Create New**
 
 <img src=aag-qlg-access-policy.png>
@@ -130,7 +130,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 {{% expand title="Configure a Virtual Server for the AAG" %}}
 
 **Configure a Virtual Server for the AAG**
-- Go to **Server Load Balance > Virtual Server**
+- Go to **Server Load Balance → Virtual Server**
 - Click **+Create New**
 
 <img src=aag-qlg-vs.png>
@@ -169,7 +169,7 @@ No need to save yet.
 > [!Info]
 > Traffic logging should be used mainly for debugging; traffic logging will consume extensive memory and CPU resources. Please disable traffic logging after debugging is complete.
 
-Go to **FortiView > Logical Topology**
+Go to **FortiView → Logical Topology**
 
 You should see your Application Access Gateway.
 

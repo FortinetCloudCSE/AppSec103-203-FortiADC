@@ -10,7 +10,7 @@ weight: 5
 
 - Open an RDP session to the Client
 - Open a browser and go to the Juiceshop application: https://10.1.1.100
-- Open a browser and go to the DVWA application: https://10.1.1.101/dvwa/
+- Open a browser and go to the DVWA application: https://10.1.1.101/dvwa
 
 **Juiceshop**
 

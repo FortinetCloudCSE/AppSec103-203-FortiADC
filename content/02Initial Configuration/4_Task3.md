@@ -16,7 +16,7 @@ Once a server is added to the pool we will need to define a health check so the 
 
 In the next few steps we will define Real Servers and use them to create a Real Server Pool.  We will start the process by defining health checks.
 - Login to the FortiADC with username ```admin``` and password ```fortinet```
-- Go to **Server Load Balance -> Real Server Pool** 
+- Go to **Server Load Balance → Real Server Pool** 
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
 
@@ -57,7 +57,7 @@ Because we will be using two applications to run our lab, we will repeat the abo
 
 In this section we will define two application servers.
 - Login to the FortiADC with username ```admin``` and password ```fortinet```
-- Go to **Server Load Balance -> Real Server Pool**
+- Go to **Server Load Balance → Real Server Pool**
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
 - **Save**
@@ -82,7 +82,7 @@ In this section we will define two application servers.
 
 Next we add the servers to a server pool.
 
-- Go to **Server Load Balance -> Real Server Pool**
+- Go to **Server Load Balance → Real Server Pool**
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
 

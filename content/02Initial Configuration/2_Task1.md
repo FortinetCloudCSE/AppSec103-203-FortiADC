@@ -9,7 +9,7 @@ In server load balancing deployments, the system uses health checks to poll the 
 
 **Configure a Health Check**
 - Login to the FortiADC with username ```admin``` and password ```fortinet```
-- Go to **Shared Resources -> Health Check**
+- Go to **Shared Resources → Health Check**
 - Click on **+Create New**
 
 ![](fad-shared-resources.png)
