@@ -9,6 +9,14 @@ A quick start lab guide on how to set up the Application Access Gateway using a 
 
 **Workflow:**
 
+1. Configure a local user
+2. Configure a user group
+3. Configure the AAG Application Group
+4. Configure the AAG Application Portal
+5. Configure the AAG Application Access Policy
+6. Configure a Virtual Server for the AAG
+7. Test
+
 {{% expand title="Configure a Local User" %}}
 
 **Configure A local User**
