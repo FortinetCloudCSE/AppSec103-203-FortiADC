@@ -8,13 +8,6 @@ weight: 7
 A quick start lab guide on how to set up the Application Access Gateway using a local user account.
 
 **Workflow:**
-1. Create a local user
-2. Create a user group
-3. Configure an Application Group
-4. Configure the Application Portal
-5. Configure the Application Access Policy
-6. Configure the Application Access Virtual Server
-7. Test
 
 {{% expand title="Configure a Local User" %}}
 
