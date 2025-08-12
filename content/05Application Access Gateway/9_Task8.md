@@ -17,7 +17,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 6. Configure a Virtual Server for the AAG
 7. Test
 
-{{% expand title="Configure a Local User" %}}
+{{% expand title="**Configure a Local User**" %}}
 
 **Configure A local User**
 
@@ -35,7 +35,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 
 {{% /expand %}}
 
-{{% expand title="Configure a User Group" %}}
+{{% expand title="**Configure a User Group**" %}}
 
 **Configure a User Group**
 - Go to **Application Access Manager → User Group**
@@ -54,7 +54,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 
 {{% /expand %}}
 
-{{% expand title="Configure the AAG Application Group" %}}
+{{% expand title="**Configure the AAG Application Group**" %}}
 
 **Configure the AAG Application Group**
 - Go to **Application Access Manager → Agentless Application Gateway → App Group**
@@ -80,7 +80,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 
 {{% /expand %}}
 
-{{% expand title="Configure the AAG Application Portal" %}}
+{{% expand title="**Configure the AAG Application Portal**" %}}
 
 **Configure the AAG Application Portal**
 - Go to **Application Access Manager → Agentless Application Gateway → App Portal**
@@ -101,7 +101,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 
 {{% /expand %}}
 
-{{% expand title="Configure the AAG Application Access Policy" %}}
+{{% expand title="**Configure the AAG Application Access Policy**" %}}
 
 **Configure the AAG Application Access Policy**
 - Go to **Application Access Manager → Agentless Application Gateway → Access Policy**
@@ -127,7 +127,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 
 {{% /expand %}}
 
-{{% expand title="Configure a Virtual Server for the AAG" %}}
+{{% expand title="**Configure a Virtual Server for the AAG**" %}}
 
 **Configure a Virtual Server for the AAG**
 - Go to **Server Load Balance → Virtual Server**
@@ -177,7 +177,7 @@ You should see your Application Access Gateway.
 
 {{% /expand %}}
 
-{{% expand title="Test" %}}
+{{% expand title="**Test**" %}}
 
 **Test AAG Access**
 - RDP to the Client
