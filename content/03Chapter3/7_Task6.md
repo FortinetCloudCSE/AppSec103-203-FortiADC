@@ -7,7 +7,7 @@ weight: 90
 
 ### Testing Adaptive Learning
 
-For this section, we will use scripts that we will run on the client machine to generate traffic and to simulate attacks using **ZAP tool**.
+For this section, we will use scripts that we will run on the client machine to generate traffic.
 
 * Access Primary FortiADC's GUI from the console using the link provided
 * Login to the FortiADC with the username ```admin``` and password ```fortinet```
@@ -44,7 +44,7 @@ For this section, we will use scripts that we will run on the client machine to 
 
 ![](DVWA-Adaptive-Learning13.png)
 
-* Login to **DVWA** app with the username ```admin``` and password ```fortinet```
+* Login to **DVWA** app with the username ```admin``` and password ```password```
 
 ![](DVWA-Adaptive-Learning14.png)
 
