@@ -1,7 +1,7 @@
 ---
-title: "Security"
+title: "Application Security"
 chapter: false
-linkTitle: "Security"
+linkTitle: "Application Security"
 weight: 30
 ---
 

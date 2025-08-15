@@ -9,7 +9,7 @@ weight: 90
 
 For this section, we will simulate attacks using **ZAP tool** installed on the Client machine.
 
-* RDP to the client machine with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+* RDP to the client machine with the username ```fortinet``` and password ```fortinet```
 * Click on **Activities** on top left corner and open **ZAP** tool.
 
 ![](zap-tool-1.png)

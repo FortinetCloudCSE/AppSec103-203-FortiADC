@@ -24,7 +24,7 @@ For this section, we will use scripts that we will run on the client machine to 
  
 ![](DVWA-Adaptive-Learning10.png)
 
-* RDP to the client machine with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+* RDP to the client machine with the username ```fortinet``` and password ```fortinet```
 * Click on **Activities** on top left corner and open **Terminal**
 
 ![](Ubuntu-Client-1.png)
