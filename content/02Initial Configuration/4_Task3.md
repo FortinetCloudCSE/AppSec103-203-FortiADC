@@ -2,7 +2,7 @@
 title: "Server Pools"
 linkTitle: "Server Pools"
 chapter: false
-weight: 3 
+weight: 13 
 ---
 
 ### **Server Pools**
