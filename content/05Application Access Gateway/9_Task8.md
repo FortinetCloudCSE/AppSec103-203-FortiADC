@@ -150,14 +150,13 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 - Address: **10.1.2.100**
 - Port: **9443**
 - Interface: **Port1**
-
-> [!Info]
-> The Profile needs to be an AAG Profile.
-
 - Profile: **LB_PROFILE_APP_ACCESS**
 - Access Policy: **AAG-Access-Policy**
 
 No need to save yet.
+
+> [!Info]
+> The Profile needs to be an AAG Profile.
 
 - Click on the **Monitoring** Tab
 

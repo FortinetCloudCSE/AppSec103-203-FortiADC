@@ -1,10 +1,10 @@
 ---
-title: "Log Setting"
-linkTitle: "Log Setting"
+title: "Log Settings"
+linkTitle: "Log Settings"
 chapter: false
-weight: 16
+weight: 15
 ---
-### **Log Setting**
+### **Log Settings**
 
 The local log is a datastore hosted on the FortiADC system. In this step, we are going to turn on all the Logs like Event logs, Traffic logs, Security logs and Script logs.
 
