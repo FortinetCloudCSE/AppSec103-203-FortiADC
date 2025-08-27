@@ -21,7 +21,7 @@ For this section, we will focus on following Bot Mitigation modules of FortiADC'
 * Conversely, "bad bots" are known to generate malicious traffic that can compromise site availability and integrity. Examples of such activities include Distributed Denial of Service (DDoS) attacks and content scraping. To mitigate these threats, it is crucial to deploy effective bot mitigation strategies, such as IP reputation analysis, rate limiting, anomaly detection algorithms, and CAPTCHA challenges, to identify and block these harmful bots in real-time.
 
 * Access Primary FortiADC's GUI from the console using the link provided
-* Login to the FortiADC with the username ```admin``` and password ```fortinet``` 
+* Login to the FortiADC with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!``` 
 * Go to **Web Application Firewall** → **Bot Detection** 
 * You will notice that since we accepted the recommendations from Adaptive Learning, it was automatically added to **Bot Detection** module so we don't need to create a new one.
 

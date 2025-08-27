@@ -10,7 +10,7 @@ weight: 90
 For this section, we will use scripts that we will run on the client machine to generate traffic.
 
 * Access Primary FortiADC's GUI from the console using the link provided
-* Login to the FortiADC with the username ```admin``` and password ```fortinet```
+* Login to the FortiADC with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 * First, we need to clear all the logs from FortiADC. 
 * To do that, go to FortiADC CLI by clicking ">_" towards the top right corner and type ```execute log delete-type all```
 
@@ -24,7 +24,7 @@ For this section, we will use scripts that we will run on the client machine to 
  
 ![](DVWA-Adaptive-Learning10.png)
 
-* RDP to the client machine with the username ```fortinet``` and password ```fortinet```
+* RDP to the client machine with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 * Click on **Activities** on top left corner and open **Terminal**
 
 ![](Ubuntu-Client-1.png)

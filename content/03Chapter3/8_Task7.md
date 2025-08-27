@@ -9,7 +9,7 @@ weight: 90
 
 For this section, we will simulate attacks using **ZAP tool** installed on the Client machine.
 
-* RDP to the client machine with the username ```fortinet``` and password ```fortinet```
+* RDP to the client machine with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 * Click on **Activities** on top left corner and open **ZAP** tool.
 
 ![](zap-tool-1.png)
@@ -39,7 +39,7 @@ For this section, we will simulate attacks using **ZAP tool** installed on the C
 ![](zap-tool-7.png)
 
 * Access Primary FortiADC's GUI from the console using the link provided
-* Login to the FortiADC with the username ```admin``` and password ```fortinet```
+* Login to the FortiADC with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 * Go to **Log & Report** → **Security Log**. It will show all the **Attacks** coming in from the **ZAP** tool hitting **DVWA** webserver behind **FortiADC**. 
 
 ![](zap-tool-8.png)

@@ -10,7 +10,7 @@ weight: 80
 Now, we will associate the WAF profiles with a Virtual Server. Refer to the diagram in the traffic flow section to understand how traffic is processed through FortiADC for better context.
 
 * Access Primary FortiADC's GUI from the console using the link provided
-* Login to the FortiADC with the username ```admin``` and password ```fortinet```
+* Login to the FortiADC with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 * Go to **ServerLoad Balance** → **Virtual Server**
 * Double click **Juiceshop** or click on edit (pencil icon) on the right side of **JuiceShop** 
 

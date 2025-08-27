@@ -17,7 +17,7 @@ The configuration steps will be as follows:
 
 ### Step 1 - Create Adaptive learning profile
 * Access Primary FortiADC's GUI from the console using the link provided
-* Login to the FortiADC with the username ```admin``` and password ```fortinet```
+* Login to the FortiADC with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 * Go to **Web Application FireWall** → **Adaptive learning**
 * Click on **+Create New** 
 

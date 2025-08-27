@@ -21,7 +21,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 
 **Configure A local User**
 
-- Login to the FortiADC with the username ```admin``` and password ```fortinet```
+- Login to the FortiADC with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 - Go to **Application Access Manager → Local User**
 - Click **+Create New**
 
@@ -73,8 +73,8 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 - Host: **10.1.3.4**
 - Port: **22**
 - Set the **Advanced Setting** flag to **ON**
-- Username: **xperts2025**
-- Password: *********
+- **Username:** ```xperts2025```
+- **Password:** ```AppSec-Xp3rts2025!```
 - **Save**
 - **Save**
 
@@ -180,9 +180,9 @@ You should see your Application Access Gateway.
 {{% expand title="**Test**" %}}
 
 **Test AAG Access**
-- RDP to the Client
+- RDP to the Client with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 - Open Firefox
-- Go to https://10.1.1.100:9443
+- Go to **https://10.1.1.100:9443**
 
 <img src=aag-qlg-app-portal-access.png>
 

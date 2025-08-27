@@ -11,7 +11,7 @@ weight: 15
 - Open an RDP session to the Client.
 - Open Firefox and go to the Juiceshop application: **https://10.1.1.100**
 - Open Firefox and go to the DVWA application: **https://10.1.1.101/dvwa**
-- Log in to DVWA with ```admin``` / ```password```. The username and password are saved in the browser.
+- Log in to DVWA with admin / ```password```. The username and password are saved in the browser.
 
 **Juiceshop**
 

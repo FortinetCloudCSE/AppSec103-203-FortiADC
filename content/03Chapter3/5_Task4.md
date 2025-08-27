@@ -10,7 +10,7 @@ weight: 70
 Now, we will create a WAF profile and associate the Adaptive Learning profiles (JuiceShop & DVWA) we created with the WAF profile. 
 
 * Access Primary FortiADC's GUI from the console using the link provided
-* Login to the FortiADC with the username ```admin``` and password ```fortinet```
+* Login to the FortiADC with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 * Go to **Web Application FireWall** → **WAF Profile**
 * Click on **+Create New** 
 
