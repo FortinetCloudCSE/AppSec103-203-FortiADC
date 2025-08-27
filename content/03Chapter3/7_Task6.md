@@ -74,6 +74,3 @@ For this section, we will use scripts that we will run on the client machine to 
 ![](DVWA-Adaptive-Learning21.png)
 
 ![](DVWA-Adaptive-Learning22.png)
-
-
-####### May be add running the ZAP tool now or later after Bot Mitigation & DDOS modules.
