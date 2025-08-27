@@ -49,4 +49,13 @@ Start Juiceshop second.  Notice the IP is different for each server.
 sudo docker run -d -p 10.1.3.5:80:3000 bkimminich/juice-shop
 ```
 
+To verify the applications are running.  From the Client, SSH into both and run the command:
+```
+netstat -an | less
+```
+
+You should now see the listening ports for DVWA and Juiceshop.  Juiceshop is listening on TCP port 80, and DVWA is listening on TCP ports 21, 443, 8080, and 3306.
+
+![](netstat.png)
+
 
