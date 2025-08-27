@@ -20,5 +20,33 @@ weight: 01
 |APP-Server1|xperts2025|AppSec-Xp3rts2025!|  |           | 10.1.3.4   |
 |APP-Server2|xperts2025|AppSec-Xp3rts2025!|  |           | 10.1.3.5   |
 
+> [!Info]
+> The Juiceshop and DVWA applications need to be started on the application servers using the following commands.  If we miss this step our health checks will fail.
+
+**APP-Server1**
+
+Start DVWA first
+```
+sudo /opt/lampp/lampp start
+```
+
+Start Juiceshop second.  Notice the IP is different for each server.
+
+```
+sudo docker run -d -p 10.1.3.4:80:3000 bkimminich/juice-shop
+```
+
+**APP-Server2**
+
+Start DVWA first
+```
+sudo /opt/lampp/lampp start
+```
+
+Start Juiceshop second.  Notice the IP is different for each server.
+
+```
+sudo docker run -d -p 10.1.3.5:80:3000 bkimminich/juice-shop
+```
 
 
