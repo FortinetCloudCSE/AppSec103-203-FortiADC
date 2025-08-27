@@ -36,7 +36,7 @@ The configuration steps will be as follows:
 
 ![JuiceShop-Adaptive-Learning3](JuiceShop-Adaptive-Learning3.png)
 
-* On the URL List page, type **/** under URL textbox
+* On the URL List page, type **/*** under URL textbox
 * Click **Save**
 * Click **Save** again
 
