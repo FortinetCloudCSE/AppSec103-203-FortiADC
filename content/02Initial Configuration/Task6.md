@@ -2,7 +2,7 @@
 title: "Log Setting"
 linkTitle: "Log Setting"
 chapter: false
-weight: 5
+weight: 16
 ---
 ### **Log Setting**
 
