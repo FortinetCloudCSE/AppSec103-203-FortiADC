@@ -9,6 +9,7 @@ weight: 16
 **To test for the first time:**
 
 - Open an RDP session to the Client.
+  - username: ```xperts2025``` password: ```AppSec-Xp3rts2025!```
 - Open Firefox and go to the Juiceshop application: **https://10.1.1.100**
 - Open Firefox and go to the DVWA application: **https://10.1.1.101/dvwa**
 - Log in to DVWA with admin / ```password```. The username and password are saved in the browser.

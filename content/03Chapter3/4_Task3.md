@@ -9,16 +9,15 @@ weight: 60
 
 The configuration steps will be as follows:
 
-1. Create Adaptive learning profile 
-2. Create WAF profile and add the Adaptive learning profile created in step 1
-3. Associate the WAF profile with the virtual server created in Section one of the lab. 
+1. Create an Adaptive Learning Profile 
+2. Create a WAF Profile and add the Adaptive Learning Profile created in step 1
+3. Associate the WAF Profile with the Virtual Server created in the "Initial Configuration" section of the lab. 
 
 
 
-### Step 1 - Create Adaptive learning profile
-* Access Primary FortiADC's GUI from the console using the link provided
-* Login to the FortiADC with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
-* Go to **Web Application FireWall** → **Adaptive learning**
+### Step 1 - Create an Adaptive Learning Profile
+* Login to the FortiADC (FAD-Primary) with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+* Go to **Web Application FireWall** → **Adaptive Learning**
 * Click on **+Create New** 
 
 ![Adaptive-Learning](Adaptive-Learning1.png)
@@ -32,7 +31,7 @@ The configuration steps will be as follows:
 
 ![JuiceShop-Adaptive-Learning2](JuiceShop-Adaptive-Learning2.png)  
  
-* After that, click on the **+Create New** button to create a **URL LIST** 
+* After that, click on the **+Create New** button to create a **URL List** 
 
 ![JuiceShop-Adaptive-Learning3](JuiceShop-Adaptive-Learning3.png)
 
@@ -56,7 +55,7 @@ The configuration steps will be as follows:
 
 ![DVWA-Adaptive-Learning5](DVWA-Adaptive-Learning5.png)
 
-* After that, click on the **+Create New** button to create a **URL LIST** 
+* After that, click on the **+Create New** button to create a **URL List** 
 
 * On the URL List page, type **/*** under URL textbox
 * Click **Save**

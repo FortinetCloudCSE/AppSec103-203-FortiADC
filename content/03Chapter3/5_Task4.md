@@ -7,10 +7,9 @@ weight: 70
 
 ### Step 2 - Create WAF profile 
 
-Now, we will create a WAF profile and associate the Adaptive Learning profiles (JuiceShop & DVWA) we created with the WAF profile. 
+Now, we will create a WAF Profile and associate the Adaptive Learning profiles (JuiceShop & DVWA) we created earlier with the WAF Profile. 
 
-* Access Primary FortiADC's GUI from the console using the link provided
-* Login to the FortiADC with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+* Login to the FortiADC (FAD-Primary) with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 * Go to **Web Application FireWall** → **WAF Profile**
 * Click on **+Create New** 
 
@@ -23,9 +22,9 @@ Now, we will create a WAF profile and associate the Adaptive Learning profiles (
 ![WAF-Profile10](WAF-Profile10.png)
 
 
-* For this exercise, we will focus solely on configuring the adaptive learning module and will not configure the other WAF modules. In a production environment, however, all relevant WAF modules would be configured as needed to ensure comprehensive protection.
+* For this exercise, we will focus solely on configuring the Adaptive Learning module and will not configure the other WAF modules. In a production environment, however, all relevant WAF modules would be configured as needed to ensure comprehensive protection.
 
-* After that, we will create a second WAF profile for the DVWA application
+* After that, we will create a second WAF Profile for the DVWA application
 
 * Go to **Web Application FireWall** → **WAF Profile**
 * Click on **+Create New** 

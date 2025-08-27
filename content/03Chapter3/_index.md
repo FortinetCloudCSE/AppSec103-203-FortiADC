@@ -6,7 +6,7 @@ weight: 30
 ---
 
 ### **FortiADC Security modules**
-FortiADC provides comprehensive security modules, divided into four main categories:
+The FortiADC provides a comprehensive list of security modules, divided into four main categories:
 
 - **Network Security**: This includes Intrusion Prevention System (IPS), Antivirus (AV), and IP address-based rules.
 - **Application Security**: Focuses on Web Application Firewall (WAF), including API protection and API gateway capabilities.

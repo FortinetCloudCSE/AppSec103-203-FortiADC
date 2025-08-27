@@ -10,8 +10,7 @@ The local log is a datastore hosted on the FortiADC system. In this step, we are
 
 To configure local log settings:
 
-* Access Primary FortiADC's GUI from the console using the link provided
-* Login to the FortiADC with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+* Login to the FortiADC (FAD-Primary) with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 * Go to **Log & Report** → **Log Setting**
 * Select to enable local logging **Status**.
 * Then, select **Enable All** option under all the log categories.
