@@ -65,7 +65,7 @@ To verify the applications are running.  From the Client, SSH into both and run 
 ```
 netstat -an | less
 ```
-You should now see the listening ports for DVWA and Juiceshop.  Juiceshop is listening on TCP port 80, and DVWA is listening on TCP ports 21, 443, 8080, and 3306.
+You should see the listening ports for DVWA and Juiceshop.  Juiceshop is listening on TCP port 80, and DVWA is listening on TCP ports 21, 443, 8080, and 3306.
 
 ![](netstat.png)
 
