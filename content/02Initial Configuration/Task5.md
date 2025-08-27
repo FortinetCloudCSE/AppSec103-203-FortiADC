@@ -2,7 +2,7 @@
 title: "Test Your Configuration"
 linkTitle: "Test Your Configuration"
 chapter: false
-weight: 15
+weight: 5
 ---
 ### **Test Your Configuration**
 
