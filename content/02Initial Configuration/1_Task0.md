@@ -7,6 +7,12 @@ weight: 01
 
 ![](fad-logical-w-ips.png)
 
+### **Lab Access**
+
+There are two possible way to access this lab. Depending on the environment you will use one, or the other, or both.
+- Azure Basion Host
+- RDP or SSH access to public IP's
+
 ### **Lab Access - Azure Bastion Host**
 
 Your instructor will give you a link at the start of the lab that will give you access via RDP to the Linux Client.  From the Linux Client you will have SSH or Web access to all devices in the lab.  Switch the protocol from SSH to RDP.
