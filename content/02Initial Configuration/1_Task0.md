@@ -7,7 +7,15 @@ weight: 01
 
 ![](fad-logical-w-ips.png)
 
-### **Lab Access**
+### **Lab Access - Azure Bastion Host**
+
+Your instructor will give you a link at the start of the lab that will give you access via RDP to the Linux Client.  From the Linux Client you will have SSH or Web access to all devices in the lab.  Switch the protocol from SSH to RDP.
+
+![](bastion.png)
+
+Log in with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```        
+
+### **Lab Access - RDP**
 
 Most, if not all access will be done through an RDP connection to a Linux Client with a public IP.  Your instructor will give you the public IP at the start of the lab.
 
