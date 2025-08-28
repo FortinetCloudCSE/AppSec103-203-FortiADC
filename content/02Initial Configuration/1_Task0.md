@@ -7,6 +7,12 @@ weight: 01
 
 ![](fad-logical-w-ips.png)
 
+### **Lab Registration**
+
+Enter your email address and click Check-in.  Leave everything else as default.
+
+![](registration.png)
+
 ### **Lab Access**
 
 There are two possible ways to access this lab. Depending on the environment you will use one, or the other, or both.
@@ -65,6 +71,12 @@ Start Juiceshop second.
 ```
 sudo docker run -d -p 10.1.3.4:80:3000 bkimminich/juice-shop
 ```
+> [!Info]
+> Note: If you need to clear the ssh keys try:
+> 
+> ```ssh-keygen -f "/home/xperts2025/.ssh/known_hosts" -R "10.1.3.4"```
+> or
+> ```ssh -o StrictHostKeychecking=no hostname```
 
 **APP-Server2**
 
@@ -84,6 +96,13 @@ Start Juiceshop second.
 ```
 sudo docker run -d -p 10.1.3.5:80:3000 bkimminich/juice-shop
 ```
+> [!Info]
+> Note: If you need to clear the ssh keys try:
+> 
+> ```ssh-keygen -f "/home/xperts2025/.ssh/known_hosts" -R "10.1.3.5"```
+> or
+> ```ssh -o StrictHostKeychecking=no hostname```
+
 To verify the applications are running.  From the Client, SSH into both and run the command:
 ```
 netstat -an | less
