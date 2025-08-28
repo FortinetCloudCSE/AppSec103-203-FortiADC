@@ -15,7 +15,7 @@ When the FortiADC is deployed in L7 mode (reverse proxy), a new TCP session is e
 Once a server is added to the pool we will need to define a health check so the FortiADC can determine the status or availability of a server before forwarding a request to the server.
 
 In the next few steps we will define Real Servers and use them to create a Real Server Pool.  We will start the process by defining health checks.
-- Login to the FortiADC with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+- Login to the FortiADC (FAD-Primary) with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 - Go to **Server Load Balance → Real Server Pool** 
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
@@ -56,7 +56,7 @@ Because we will be using two applications to run our lab, we will repeat the abo
 **Create Real Servers for the 2nd Application**
 
 In this section we will define two application servers.
-- Login to the FortiADC with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+- Login to the FortiADC (FAD-Primary) with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 - Go to **Server Load Balance → Real Server Pool**
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**

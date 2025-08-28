@@ -21,7 +21,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 
 **Configure A local User**
 
-- Login to the FortiADC with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+- Login to the FortiADC (FAD-Primary) with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 - Go to **Application Access Manager → Local User**
 - Click **+Create New**
 

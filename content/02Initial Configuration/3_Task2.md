@@ -8,7 +8,7 @@ weight: 12
 ### **Real Servers**
 
 In this section we will define two application servers. 
-- Login to the FortiADC with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+- Login to the FortiADC (FAD-Primary) with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 - Go to **Server Load Balance → Real Server Pool**
 - Click on the **Real Server** Tab 
 - Click on **+Create New**

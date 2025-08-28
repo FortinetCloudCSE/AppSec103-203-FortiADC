@@ -7,7 +7,7 @@ weight: 14
 ### **Define Virtual Servers**
 
 The next step is to configure a virtual server, which defines the type of traffic FortiADC will manage and how it will be processed. For this exercise, we will create two virtual servers, one for each of our web applications, while using the default settings wherever possible.
-- Login to the FortiADC with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+- Login to the FortiADC (FAD-Primary) with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 - Go to **Server Load Balance → Virtual Server**
 - Click on **+Create New** then **Advanced Mode**
 
@@ -66,7 +66,7 @@ The next step is to configure a virtual server, which defines the type of traffi
 
 ![](fad-vs-dvwa-monitoring.png)
 
-- Go to **Fortiview → Logical Topology** 
+- Go to **FortiView → Logical Topology** 
 
 Your topology should look like the image below 
 
