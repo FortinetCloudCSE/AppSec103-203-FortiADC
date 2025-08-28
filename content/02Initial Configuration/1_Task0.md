@@ -9,8 +9,8 @@ weight: 01
 
 ### **Lab Access**
 
-There are two possible way to access this lab. Depending on the environment you will use one, or the other, or both.
-- Azure Basion Host
+There are two possible ways to access this lab. Depending on the environment you will use one, or the other, or both.
+- Azure Bastion Host
 - RDP or SSH access to public IP's
 
 ### **Lab Access - Azure Bastion Host**
