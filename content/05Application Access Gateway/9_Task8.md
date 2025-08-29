@@ -92,7 +92,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 - **Save**
 - Click **+Create New**
 
-<img src=aag-qlg-aag-app-portal1.png>
+<img src=aag-qlg-aag-app-portal2.png>
 
 - Title: **AAG-App-Portal**
 - App Group: **AAG-App-Group**
