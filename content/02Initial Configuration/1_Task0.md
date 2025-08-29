@@ -21,7 +21,7 @@ There are two possible ways to access this lab. Depending on the environment you
 
 ### **Lab Access - Azure Bastion Host**
 
-Your instructor will give you a link at the start of the lab that will give you access via RDP to the Linux Client.  From the Linux Client you will have SSH or Web access to all devices in the lab.  Switch the protocol from SSH to RDP.
+Your instructor will give you a link at the start of the lab that will give you access via RDP to the Linux Client.  From the Linux Client you will have SSH or Web access to all devices in the lab.  Switch the protocol from SSH to RDP to get started.
 
 ![](bastion.png)
 
