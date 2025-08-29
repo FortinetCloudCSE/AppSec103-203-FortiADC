@@ -58,7 +58,7 @@ Because we will be using two applications to run our lab, we will repeat the abo
 In this section we will define two application servers.
 - Login to the FortiADC (FAD-Primary) with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 - Go to **Server Load Balance → Real Server Pool**
-- Click on the **Real Server Pool** Tab
+- Click on the **Real Server** Tab
 - Click on **+Create New**
 - **Save**
 
