@@ -9,7 +9,7 @@ weight: 01
 
 ### **Lab Registration**
 
-To begin, enter your email address and click Check-in.  Leave everything else as is.
+Enter your email address and click Check-in.  Leave everything else as default.
 
 ![](registration.png)
 
@@ -21,7 +21,7 @@ There are two possible ways to access this lab. Depending on the environment you
 
 ### **Lab Access - Azure Bastion Host**
 
-Your instructor will give you a link at the start of the class that will give you access via RDP to the Linux Client.  From the Linux Client you will have SSH or Web access to all devices in the lab.  Switch the protocol from SSH to RDP to get started.
+Your instructor will give you a link at the start of the lab that will give you access via RDP to the Linux Client.  From the Linux Client you will have SSH or Web access to all devices in the lab.  Switch the protocol from SSH to RDP.
 
 ![](bastion.png)
 
@@ -61,24 +61,17 @@ ssh xperts2025@10.1.3.4
 ```
 Password: ```AppSec-Xp3rts2025!```
 
-Start DVWA and Juiceshop 
+Start DVWA first
 ```
 sudo /opt/lampp/lampp start
+```
+
+Start Juiceshop second.
+
+```
 sudo docker run -d -p 10.1.3.4:80:3000 bkimminich/juice-shop
+exit
 ```
-Run netstat to confirm the applications are running.
-
-```
-nestat -an | less
-```
-Your output should look like the image below.  Now we see the server is listening on ports 80, 443, 8080, 21 and 3306.  We could use any of these ports for our health checks.
-
-![](netstat.png)
-
-To quit netstat type "q".
-
-To exit the application server type "exit".
-
 > [!Info]
 > Note: If you need to clear the ssh keys try:
 > 
@@ -88,32 +81,23 @@ To exit the application server type "exit".
 
 **APP-Server2**
 
-From the Client, SSH into APP-Server2 at 10.1.3.5.
+From the Client, SSH into APP-Server2 at 10.1.3.5
 ```
 ssh xperts2025@10.1.3.5
 ```
 Password: ```AppSec-Xp3rts2025!```
 
-Start DVWA and Juiceshop 
+Start DVWA first
 ```
 sudo /opt/lampp/lampp start
+```
+
+Start Juiceshop second.
+
+```
 sudo docker run -d -p 10.1.3.5:80:3000 bkimminich/juice-shop
-
+exit
 ```
-Run netstat to confirm the applications are running.
-
-```
-nestat -an | less
-```
-
-Your output should look like the image below.  Now we see the server is listening on ports 80, 443, 8080, 21 and 3306.  We could use any of these ports for our health checks.
-
-![](netstat.png)
-
-To quit netstat type "q".
-
-To exit the application server type "exit".
-
 > [!Info]
 > Note: If you need to clear the ssh keys try:
 > 
@@ -121,13 +105,21 @@ To exit the application server type "exit".
 > or
 > ```ssh -o StrictHostKeychecking=no hostname```
 
+To verify the applications are running.  From the Client, SSH into both and run the command:
+```
+netstat -an | less
+```
+You should see the listening ports for DVWA and Juiceshop.  Juiceshop is listening on TCP port 80, and DVWA is listening on TCP ports 21, 443, 8080, and 3306.
+
+![](netstat.png)
+
 ### **First Time Access to the FortiADC**
 
-If you see the Getting Started wizard click Dashboard.  This will take you directly to the Dashboard, bypassing the wizard.
+If you see the Getting Started Wizard click Dashboard.  This will take you directly to the Dashboard
 
 ![](fad-wizard-1.png)
 
-If you see the Highlights wizard click "Next" while scrolling through the latest highlights, toggle "Don't show highlights again" and click "Close".
+If you see the Highlights wizard click next while scrolling through the latest highlights, toggle "Don't show highlights again" and Close.
 
 ![](highlights-wizard.png)
 
