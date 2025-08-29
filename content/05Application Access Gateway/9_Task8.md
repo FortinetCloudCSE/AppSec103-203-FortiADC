@@ -131,7 +131,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 
 **Configure a Virtual Server for the AAG**
 - Go to **Server Load Balance → Virtual Server**
-- Click **+Create New**
+- Click **+Create New** then **Advanced Mode**
 
 <img src=fad-vs.png>
 
@@ -179,7 +179,7 @@ You should see your Application Access Gateway.
 {{% expand title="**Test**" %}}
 
 **Test AAG Access**
-- RDP to the Client with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+- From the Client with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 - Open Firefox
 - Go to **https://10.1.1.100:9443**
 
