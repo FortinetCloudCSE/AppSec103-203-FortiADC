@@ -1,6 +1,6 @@
 ---
 title: "AAG Quick Start Lab Guide"
-linkTitle: "AAG Quick Start Lab Guide"
+linkTitle: "AAG Lab Guide - Start Here"
 weight: 7 
 ---
 
