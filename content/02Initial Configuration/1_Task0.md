@@ -61,27 +61,17 @@ ssh xperts2025@10.1.3.4
 ```
 Password: ```AppSec-Xp3rts2025!```
 
-Start DVWA and Juiceshop 
+Start DVWA first
 ```
 sudo /opt/lampp/lampp start
-sudo docker run -d -p 10.1.3.4:80:3000 bkimminich/juice-shop
 ```
-Run netstat to confirm the applications are running.
+
+Start Juiceshop second.
 
 ```
-nestat -an | less
 sudo docker run -d -p 10.1.3.4:80:3000 bkimminich/juice-shop
 exit
 ```
-
-Your output should look like the image below.  Now we see the server is listening on ports 80, 443, 8080, 21 and 3306.  We could use any of these ports for our health checks.
-
-![](netstat.png)
-
-To quit netstat type "q".
-
-To exit the application server type "exit.
-
 > [!Info]
 > Note: If you need to clear the ssh keys try:
 > 
@@ -91,41 +81,29 @@ To exit the application server type "exit.
 
 **APP-Server2**
 
-From the Client, SSH into APP-Server1 at 10.1.3.5.
+From the Client, SSH into APP-Server2 at 10.1.3.5
 ```
 ssh xperts2025@10.1.3.5
 ```
 Password: ```AppSec-Xp3rts2025!```
 
-Start DVWA and Juiceshop 
+Start DVWA first
 ```
 sudo /opt/lampp/lampp start
-sudo docker run -d -p 10.1.3.5:80:3000 bkimminich/juice-shop
+```
+
+Start Juiceshop second.
 
 ```
-Run netstat to confirm the applications are running.
-
-```
-nestat -an | less
 sudo docker run -d -p 10.1.3.5:80:3000 bkimminich/juice-shop
 exit
 ```
-
-Your output should look like the image below.  Now we see the server is listening on ports 80, 443, 8080, 21 and 3306.  We could use any of these ports for our health checks.
-
-![](netstat.png)
-
-To quit netstat type "q".
-
-To exit the application server type "exit.
-
 > [!Info]
 > Note: If you need to clear the ssh keys try:
 > 
 > ```ssh-keygen -f "/home/xperts2025/.ssh/known_hosts" -R "10.1.3.5"```
 > or
 > ```ssh -o StrictHostKeychecking=no hostname```
-
 
 To verify the applications are running.  From the Client, SSH into both and run the command:
 ```
@@ -135,15 +113,13 @@ You should see the listening ports for DVWA and Juiceshop.  Juiceshop is listeni
 
 ![](netstat.png)
 
-Hit "q" to exit netstat
-
 ### **First Time Access to the FortiADC**
 
-If you see the Getting Started wizard click Dashboard.  This will take you directly to the Dashboard, bypassing the wizard.
+If you see the Getting Started Wizard click Dashboard.  This will take you directly to the Dashboard
 
 ![](fad-wizard-1.png)
 
-If you see the Highlights wizard click "Next" while scrolling through the latest highlights, toggle "Don't show highlights again" and click "Close".
+If you see the Highlights wizard click next while scrolling through the latest highlights, toggle "Don't show highlights again" and Close.
 
 ![](highlights-wizard.png)
 
