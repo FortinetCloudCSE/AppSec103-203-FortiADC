@@ -9,7 +9,7 @@ weight: 50
 
 The new FortiADC WAF Adaptive Learning feature enhances security by dynamically generating tailored recommendations to refine protection policies, allowing for quick and effective WAF configuration to counter evolving threats. By continuously performing deep packet inspection and traffic analysis, the Adaptive Learning engine builds comprehensive datasets from traffic patterns, enabling it to autonomously detect and mitigate threats with precision. These insights allow the engine to provide actionable recommendations for optimizing WAF policies, ensuring that security measures are adapted to the specific traffic characteristics of each web application. This results in an improved security posture and better operational performance through real-time adjustments and fine-tuning of security settings.
 
-The WAF Adaptive Learning feature requires either a WAF Signature license or an Application Security bundle license. For users without a valid license, FortiADC offers a 30-day trial that activates automatically when upgrading to FortiADC version 7.6.0, allowing exploration of the WAF Adaptive Learning capabilities.
+The WAF Adaptive Learning feature is part of both the FortiADC AI Security and Application Security bundles and can be added on to the Network Security bundle.
 
 Here are some practical applications of the WAF Adaptive Learning functionality:
 
