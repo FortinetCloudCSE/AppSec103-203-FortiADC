@@ -113,13 +113,15 @@ You should see the listening ports for DVWA and Juiceshop.  Juiceshop is listeni
 
 ![](netstat.png)
 
+Hit "q" to exit netstat
+
 ### **First Time Access to the FortiADC**
 
 If you see the Getting Started Wizard click Dashboard.  This will take you directly to the Dashboard
 
 ![](fad-wizard-1.png)
 
-If you see the Highlights wizard click next while scrolling through the latest highlights, toggle "Don't show highlights again" and Close.
+If you see the Highlights wizard click "Next" while scrolling through the latest highlights, toggle "Don't show highlights again" and click "Close".
 
 ![](highlights-wizard.png)
 
