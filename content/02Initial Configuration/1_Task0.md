@@ -70,6 +70,7 @@ Start Juiceshop second.
 
 ```
 sudo docker run -d -p 10.1.3.4:80:3000 bkimminich/juice-shop
+exit
 ```
 > [!Info]
 > Note: If you need to clear the ssh keys try:
@@ -95,6 +96,7 @@ Start Juiceshop second.
 
 ```
 sudo docker run -d -p 10.1.3.5:80:3000 bkimminich/juice-shop
+exit
 ```
 > [!Info]
 > Note: If you need to clear the ssh keys try:
