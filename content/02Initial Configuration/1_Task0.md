@@ -31,7 +31,7 @@ Log in with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 
 Most, if not all access will be done through an RDP connection to a Linux Client with a public IP.  Your instructor will give you the public IP at the start of the lab.
 
-Once you have the public IP to your Client you will log in with username: ```xperts2025``` and password: ```AppSec-Xp3rts2025!```.  From the client you should have web or ssh access to all the devices in the lab.  There are bookmarks and passwords pre-loaded into Firefox for easy access to FAD-Primary, FAD-Secondary, Juicshop, and DVWA.
+Once you have the public IP to your Client you will log in with username: ```xperts2025``` and password: ```AppSec-Xp3rts2025!```.  From the client you should have web or SSH access to all the devices in the lab.  There are bookmarks and passwords pre-loaded into Firefox for easy access to FAD-Primary, FAD-Secondary, Juicshop, and DVWA.
 
 > [!Info]
 > Note: The bookmarks for Juiceshop and DVWA won't work until the FortiADC's are configured.
