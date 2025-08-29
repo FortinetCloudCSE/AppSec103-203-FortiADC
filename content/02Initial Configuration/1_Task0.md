@@ -77,7 +77,7 @@ Your output should look like the image below.  Now we see the server is listenin
 
 To quit netstat type "q".
 
-To exit the application server type "exit.
+To exit the application server type "exit".
 
 > [!Info]
 > Note: If you need to clear the ssh keys try:
@@ -112,7 +112,7 @@ Your output should look like the image below.  Now we see the server is listenin
 
 To quit netstat type "q".
 
-To exit the application server type "exit.
+To exit the application server type "exit".
 
 > [!Info]
 > Note: If you need to clear the ssh keys try:
