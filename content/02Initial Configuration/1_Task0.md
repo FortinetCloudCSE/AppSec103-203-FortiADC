@@ -70,6 +70,8 @@ Run netstat to confirm the applications are running.
 
 ```
 nestat -an | less
+sudo docker run -d -p 10.1.3.4:80:3000 bkimminich/juice-shop
+exit
 ```
 
 Your output should look like the image below.  Now we see the server is listening on ports 80, 443, 8080, 21 and 3306.  We could use any of these ports for our health checks.
@@ -105,6 +107,8 @@ Run netstat to confirm the applications are running.
 
 ```
 nestat -an | less
+sudo docker run -d -p 10.1.3.5:80:3000 bkimminich/juice-shop
+exit
 ```
 
 Your output should look like the image below.  Now we see the server is listening on ports 80, 443, 8080, 21 and 3306.  We could use any of these ports for our health checks.
@@ -121,6 +125,17 @@ To exit the application server type "exit.
 > ```ssh-keygen -f "/home/xperts2025/.ssh/known_hosts" -R "10.1.3.5"```
 > or
 > ```ssh -o StrictHostKeychecking=no hostname```
+
+
+To verify the applications are running.  From the Client, SSH into both and run the command:
+```
+netstat -an | less
+```
+You should see the listening ports for DVWA and Juiceshop.  Juiceshop is listening on TCP port 80, and DVWA is listening on TCP ports 21, 443, 8080, and 3306.
+
+![](netstat.png)
+
+Hit "q" to exit netstat
 
 ### **First Time Access to the FortiADC**
 
