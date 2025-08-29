@@ -133,7 +133,7 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 - Go to **Server Load Balance → Virtual Server**
 - Click **+Create New**
 
-<img src=aag-qlg-vs.png>
+<img src=fad-vs.png>
 
 - Name: **AAG**
 - Type: **Layer 7**
