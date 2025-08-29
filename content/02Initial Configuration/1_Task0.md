@@ -71,7 +71,6 @@ Run netstat to confirm the applications are running.
 ```
 nestat -an | less
 ```
-
 Your output should look like the image below.  Now we see the server is listening on ports 80, 443, 8080, 21 and 3306.  We could use any of these ports for our health checks.
 
 ![](netstat.png)
@@ -89,7 +88,7 @@ To exit the application server type "exit.
 
 **APP-Server2**
 
-From the Client, SSH into APP-Server1 at 10.1.3.5.
+From the Client, SSH into APP-Server2 at 10.1.3.5.
 ```
 ssh xperts2025@10.1.3.5
 ```
