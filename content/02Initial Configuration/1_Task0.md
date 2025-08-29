@@ -9,7 +9,7 @@ weight: 01
 
 ### **Lab Registration**
 
-Enter your email address and click Check-in.  Leave everything else as default.
+To begin, enter your email address and click Check-in.  Leave everything else as default.
 
 ![](registration.png)
 
