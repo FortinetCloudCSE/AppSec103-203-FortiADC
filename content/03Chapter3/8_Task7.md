@@ -22,6 +22,21 @@ For this section, we will simulate attacks using the **ZAP tool** installed on t
 
 ![](zap-tool-3.png)
 
+* Go to the Dashboard and click **Tools** then **Options**
+
+![](zap-dash.png)
+
+* Once in the Options page select **Display** and **Enable app integration in containers**
+* Scroll down in the list and select **Selenium**
+
+![](zap1.png)
+
+* Update the paths to the **geckodriver** and the **Firefox Binary**
+* Click **Bundled**
+* Click **OK**
+
+![](zap2.png)
+
 * Click the **Automated Scan** option shown as below. 
 
 ![](zap-tool-4.png)
@@ -29,10 +44,6 @@ For this section, we will simulate attacks using the **ZAP tool** installed on t
 * Enter ```https://10.1.1.101/dvwa/``` under the **URL to attack:** textbox and keep everything else default, click **Attack**. 
 
 ![](zap-tool-5.png)
-
-* The **ZAP** tool will show a pop-up showing **Your Firefox profile cannot be loaded. It may be missing or inaccessible.**. Click **OK**.
-
-![](zap-tool-6.png)
 
 * The **ZAP** tool will show the progress of the attack under the **Active Scan** tab as shown below. It shows all the requests **ZAP** is making to the various URL's in DVWA, as shown below. Let it run until it's finished (a few minutes).
 
