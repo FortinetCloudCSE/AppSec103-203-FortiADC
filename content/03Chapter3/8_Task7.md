@@ -9,7 +9,7 @@ weight: 90
 
 For this section, we will simulate attacks using the **ZAP tool** installed on the Client machine.
 
-* RDP to the client machine with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
+* From the Client with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 * Click on **Activities** in the top left corner and open the **ZAP** tool.
 
 ![](zap-tool-1.png)
@@ -26,17 +26,19 @@ For this section, we will simulate attacks using the **ZAP tool** installed on t
 
 ![](zap-dash.png)
 
-* Once in the Options page select **Display** and **Enable app integration in containers**
-* Scroll down in the list and select **Selenium**
+* Once the Options page opens select **Display** and **Enable app integration in containers**
 
 ![](zap1.png)
 
+* Scroll down in the list and select **Selenium**
 * Update the paths to the **geckodriver** and the **Firefox Binary**
-* Click **Bundled**
-* Click **OK**
 
 ![](zap2.png)
 
+* **geckodriver:** ```/home/xperts2025/.ZAP/webdriver/linux/64/geckodriver```
+* **Binary:** ```/snap/firefox/current/usr/lib/firefox/firefox```
+* Click **Bundled**
+* Click **OK**
 * Click the **Automated Scan** option shown as below. 
 
 ![](zap-tool-4.png)
