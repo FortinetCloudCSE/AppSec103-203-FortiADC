@@ -20,7 +20,7 @@ In the next few steps we will define Real Servers and use them to create a Real 
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
 
-![](fad-serverpool.png)
+{{< figure src="fad-serverpool.png" >}}
 
 - Name: **Web-Application**
 - Health Check: enable the toggle for Health Check and add the **Web_Application** Health Check we created earlier.
@@ -29,27 +29,27 @@ In the next few steps we will define Real Servers and use them to create a Real 
 > [!Info]
 > Please note that if there is a requirement to encrypt the traffic between FortiADC and the application servers, you must configure the Real Server SSL profile and enable it within the server pool definition.
 
-![](fad-serverpool1.png)
+{{< figure src="fad-serverpool1.png" >}}
 
 - Click on the **+Create New** new button under **Member** 
 
-![](fad-serverpool2.png)
+{{< figure src="fad-serverpool2.png" >}}
 
 - Real Server: **APP-Server1** from the drop down menu
 - Accept default values for the other options
 - **Save**
 
-![](pool-mbr1a.png)
+{{< figure src="pool-mbr1a.png" >}}
 
 - Real Server: **APP-Server2** from the drop down menu
 - Accept default values for the other options
 - **Save**
 
-![](pool-mbr2a.png)
+{{< figure src="pool-mbr2a.png" >}}
 
 Your finished server pool should look like this.
 
-![](finished-svr-pool1.png)
+{{< figure src="finished-svr-pool1.png" >}}
 
 Because we will be using two applications to run our lab, we will repeat the above steps again to define our second Real Server Pool. 
 
@@ -62,7 +62,7 @@ In this section we will define two application servers.
 - Click on **+Create New**
 - **Save**
 
-![](svr-dvwa1.png)
+{{< figure src="svr-dvwa1.png" >}}
 
 - Name: **DVWA1**
 - Server Type: **Static**
@@ -71,7 +71,7 @@ In this section we will define two application servers.
 - Address: **10.1.3.4**
 - **Save**
 
-![](svr-dvwa2.png)
+{{< figure src="svr-dvwa2.png" >}}
 
 - Name: **DVWA2**
 - Server Type: **Static**
@@ -86,13 +86,13 @@ Next we add the servers to a server pool.
 - Click on the **Real Server Pool** Tab
 - Click on **+Create New**
 
-![](fad-serverpool.png)
+{{< figure src="fad-serverpool.png" >}}
 
 - Name: **DVWA** 
 - Health Check: enable the toggle for Health Check and add the builtin **LB_HLTCHK_ICMP**
 - **Save** 
 
-![](dvwa-svrpool.png)
+{{< figure src="dvwa-svrpool.png" >}}
 
 - Click **+Create New**
 - Add the Real Servers defined in the previous step to the pool
@@ -100,7 +100,7 @@ Next we add the servers to a server pool.
 
 Your final result should look like the image below 
 
-![](dvwa-pool-8080.png)
+{{< figure src="dvwa-pool-8080.png" >}}
 
 
 

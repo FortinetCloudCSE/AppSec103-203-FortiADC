@@ -11,7 +11,7 @@ A Web Application Firewall (WAF) is a security solution designed to protect web 
 
 Deployed separately from the web application, a WAF offloads the resource-intensive process of security scanning from the web server, allowing centralized policy management across multiple servers. A WAF complements other perimeter security solutions, such as the FortiGate, the next-generation firewall. For example, the FortiADC WAF module applies security policies to different HTTP scanpoints, which represent various parsed elements of an HTTP transaction. Administrators can enable rules in the WAF policy settings to detect attacks at several points, including the request line, query string, filename, URI, request headers, request body, response code, and response body.
 
-![URI-Request](URI-Request.png)
+{{< figure src="URI-Request.png" alt="URI-Request" >}}
 
 ### Components of FortiADC WAF 
 

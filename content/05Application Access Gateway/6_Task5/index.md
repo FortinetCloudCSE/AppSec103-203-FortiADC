@@ -25,8 +25,8 @@ Users authenticate based on the method defined in the Access Policy bound to the
 
 Once authenticated, FortiADC initializes a user session, enforces idle timeouts, and supports reauthentication if required by policy.
 
-![](aag16.png)
-![](aag17.png)
+{{< figure src="aag16.png" >}}
+{{< figure src="aag17.png" >}}
 
 **Exploring the AAG Portal Interface**
 
@@ -37,7 +37,7 @@ Upon successful login, users are presented with the AAG App Portal interface. Th
 - App Grouping – Applications grouped by assigned App Group.
 - User Information – Includes user information and option to logout.
 
-![](aag18.png)
+{{< figure src="aag18.png" >}}
 
 **Launching Applications**
 
@@ -50,7 +50,7 @@ RDP connections honor the settings configured in the APP Access profile:
 - RDP Proxy Access Token Timeout – Controls how long a token remains valid.
 - RDP Online User Access Limit – Limits the number of concurrent RDP sessions per user.
 
-![](aag19.png)
+{{< figure src="aag19.png" >}}
 
 **Managing Sessions and Logging Out**
 
@@ -60,4 +60,4 @@ Users can track their active sessions within the portal and safely log out once 
 - Switching Between Applications – Seamless navigation without reauthentication.
 - Manual Logout – Ends session and removes tokens.
 
-![](aag20.png)
+{{< figure src="aag20.png" >}}

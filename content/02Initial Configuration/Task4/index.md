@@ -11,12 +11,12 @@ The next step is to configure a virtual server, which defines the type of traffi
 - Go to **Server Load Balance → Virtual Server**
 - Click on **+Create New** then **Advanced Mode**
 
-![](fad-vs.png)
+{{< figure src="fad-vs.png" >}}
 
 - Name: **Juiceshop**
 - Type: **Layer 7**
 
-![](fad-vs-basic.png)
+{{< figure src="fad-vs-basic.png" >}}
 
 - Go to the **General** Tab 
 - Address: **10.1.2.100**
@@ -28,24 +28,24 @@ The next step is to configure a virtual server, which defines the type of traffi
 - Method: **LB_METHOD_ROUND_ROBIN**
 - Real Server Pool: **Web-Application**
 
-![](fad-vs-general.png)
+{{< figure src="fad-vs-general.png" >}}
 
 - Go to the **Monitoring** Tab
 - **Traffic Log:** Enable the Toggle
 - **FortiView:** Enable the Toggle
 - **Save**
 
-![](fad-vs-monitoring.png)
+{{< figure src="fad-vs-monitoring.png" >}}
 
 - Go to **Server Load Balance → Virtual Server**
 - Click on **+Create New** then **Advanced Mode**
 
-![](fad-vs.png)
+{{< figure src="fad-vs.png" >}}
 
 - Name: **DVWA**
 - Type: **Layer 7**
 
-![](fad-vs-dvwa-basic.png)
+{{< figure src="fad-vs-dvwa-basic.png" >}}
 
 - Go to the **General** Tab 
 - Address: **10.1.2.101**
@@ -57,17 +57,17 @@ The next step is to configure a virtual server, which defines the type of traffi
 - Method: **LB_METHOD_ROUND_ROBIN**
 - Real Server Pool: **DVWA**
 
-![](fad-vs-dvwa-general.png)
+{{< figure src="fad-vs-dvwa-general.png" >}}
 
 - Go to the **Monitoring** Tab
 - **Traffic Log:** Enable the Toggle
 - **FortiView:** Enable the Toggle
 - **Save**
 
-![](fad-vs-dvwa-monitoring.png)
+{{< figure src="fad-vs-dvwa-monitoring.png" >}}
 
 - Go to **FortiView → Logical Topology** 
 
 Your topology should look like the image below 
 
-![](fad-logical-topo.png)
+{{< figure src="fad-logical-topo.png" >}}

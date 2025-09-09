@@ -12,7 +12,7 @@ In server load balancing deployments, the system uses health checks to poll the 
 - Go to **Shared Resources → Health Check**
 - Click on **+Create New**
 
-![](fad-shared-resources.png)
+{{< figure src="fad-shared-resources.png" >}}
 
 - Name: **Web_Application**
 - Type: **HTTP**
@@ -22,4 +22,4 @@ In server load balancing deployments, the system uses health checks to poll the 
 > [!Info]
 > Notice that when you change the Type to HTTP, additional options related to HTTP become available, such as method, version, response code, and authentication requirements. For this exercise, we will accept the default values for all other entries except those defined above.
 
-![](web-app-healthck.png)
+{{< figure src="web-app-healthck.png" >}}

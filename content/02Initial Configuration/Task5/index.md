@@ -17,10 +17,10 @@ weight: 16
 
 **Juiceshop**
 
-![](juiceshop-test.png)
+{{< figure src="juiceshop-test.png" >}}
 
 **Damn Vulnerable Web Application \(DVWA\)**
 
-![](dvwa-test.png)
+{{< figure src="dvwa-test.png" >}}
 
 This will complete the Initial Configuration Section

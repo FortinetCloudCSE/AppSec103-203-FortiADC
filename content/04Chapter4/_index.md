@@ -14,13 +14,13 @@ For this section, we will look at different types of logs and dashboards.
 * Click **FortiView** and then, select **Logical Topology** and you will be able to see Virtual Servers under **Server Load Balance** tab. 
 * From the below screenshot, we can see both **Juiceshop** and **DVWA** Virtual Servers.
 
-![](logs-dashboard-1.png)
+{{< figure src="logs-dashboard-1.png" >}}
 
 * Now, we will look at the **Statistics** status of the whole VDOM. For that, go to **FortiView** → **Data Analytics** under **Server Load Balance** tab.
 * We can see details about number of **HTTP(S) Connections**, number of **GET** or **POST** method requests, **HTTP Server Response codes** like 200, 400, 500  etc. 
 
-![](logs-dashboard-2.png)
+{{< figure src="logs-dashboard-2.png" >}}
 
 * Through the **FortiView** → **OWASP Top 10** page, we can monitor threats by OWASP Top 10 to analyze the 10 most critical attacks targeted to our application upto 1 week. 
 
-![](logs-dashboard-3.png)
+{{< figure src="logs-dashboard-3.png" >}}

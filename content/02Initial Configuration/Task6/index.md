@@ -16,4 +16,4 @@ To configure local log settings:
 * Then, select **Enable All** option under all the log categories.
 * Click **Save**
 
-![](fad-log-settings.png)
+{{< figure src="fad-log-settings.png" >}}

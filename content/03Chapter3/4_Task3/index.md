@@ -20,7 +20,7 @@ The configuration steps will be as follows:
 * Go to **Web Application FireWall** → **Adaptive Learning**
 * Click on **+Create New** 
 
-![Adaptive-Learning](Adaptive-Learning1.png)
+{{< figure src="Adaptive-Learning1.png" alt="Adaptive-Learning" >}}
 
 * Name: ```JuiceShop```
 * Status: **Enable** the toggle
@@ -29,19 +29,19 @@ The configuration steps will be as follows:
 * Learning Time: ```1```
 * Click **Save**
 
-![JuiceShop-Adaptive-Learning2](JuiceShop-Adaptive-Learning2.png)  
+{{< figure src="JuiceShop-Adaptive-Learning2.png" alt="JuiceShop-Adaptive-Learning2" >}}  
  
 * After that, click on the **+Create New** button to create a **URL List** 
 
-![JuiceShop-Adaptive-Learning3](JuiceShop-Adaptive-Learning3.png)
+{{< figure src="JuiceShop-Adaptive-Learning3.png" alt="JuiceShop-Adaptive-Learning3" >}}
 
 * On the URL List page, type **/*** under URL textbox
 * Click **Save**
 * Click **Save** again
 
-![JuiceShop-Adaptive-Learning4](JuiceShop-Adaptive-Learning4.png)
+{{< figure src="JuiceShop-Adaptive-Learning4.png" alt="JuiceShop-Adaptive-Learning4" >}}
 
-![JuiceShop-Adaptive-Learning6](JuiceShop-Adaptive-Learning6.png)
+{{< figure src="JuiceShop-Adaptive-Learning6.png" alt="JuiceShop-Adaptive-Learning6" >}}
 
 
 **We will repeat the same steps for the second application**
@@ -53,7 +53,7 @@ The configuration steps will be as follows:
 * Learning Time: ```1```
 * Click **Save**
 
-![DVWA-Adaptive-Learning5](DVWA-Adaptive-Learning5.png)
+{{< figure src="DVWA-Adaptive-Learning5.png" alt="DVWA-Adaptive-Learning5" >}}
 
 * After that, click on the **+Create New** button to create a **URL List** 
 
@@ -61,10 +61,10 @@ The configuration steps will be as follows:
 * Click **Save**
 * Click **Save** again
 
-![JuiceShop-Adaptive-Learning4](JuiceShop-Adaptive-Learning4.png)
+{{< figure src="JuiceShop-Adaptive-Learning4.png" alt="JuiceShop-Adaptive-Learning4" >}}
 
-![DVWA-Adaptive-Learning5](DVWA-Adaptive-Learning7.png)
+{{< figure src="DVWA-Adaptive-Learning7.png" alt="DVWA-Adaptive-Learning5" >}}
 
 * After adding them, the Adaptive Learning page should look like this:
 
-![Adaptive-Learning](Adaptive-Learning8.png)
+{{< figure src="Adaptive-Learning8.png" alt="Adaptive-Learning" >}}

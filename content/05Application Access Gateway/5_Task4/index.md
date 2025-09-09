@@ -10,7 +10,7 @@ After configuring the App Portal and defining App Groups, the next step in deplo
 
 FortiADC introduces a new application profile type—APP Access—to support agentless access use cases. This profile exposes AAG-specific parameters such as RDP Proxy Access Token Timeout and RDP Online User Access Limit. When bound to a Virtual Server, it enables AAG-specific capabilities, including optional RDP proxy functionality.
 
-![](aag14.png)
+{{< figure src="aag14.png" >}}
 
 **Configuring the APP Access profile**
 
@@ -26,7 +26,7 @@ You can create a custom profile or use the predefined LB_PROF_APP_ACCESS profile
 5. Configure the settings for the APP Access profile type.
 6. Click Save to save the configuration.
 
-![](aag15.png)
+{{< figure src="aag15.png" >}}
 
 |Parameter| Description                                                                                                                                                                                                                                                                                             |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

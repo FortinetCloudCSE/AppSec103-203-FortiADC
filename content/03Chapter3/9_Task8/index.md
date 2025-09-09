@@ -24,7 +24,7 @@ For this section, we will focus on following Bot Mitigation modules of FortiADC'
 * Go to **Web Application Firewall** → **Bot Detection** 
 * You will notice that once we accepted the recommendations from Adaptive Learning, it was automatically added to **Bot Detection** module so we don't need to create a new one.
 
-![](bot-mitigation-0.png)
+{{< figure src="bot-mitigation-0.png" >}}
 
 ### Configuring a Threshold Based Detection Policy
 
@@ -32,7 +32,7 @@ For this section, we will focus on following Bot Mitigation modules of FortiADC'
 * You will notice several policies which come default with the FortiADC. You can use these but you cannot customize them. So, we will create a new one below. 
 * Click on **+Create New** 
 
-![](bot-mitigation-1.png)
+{{< figure src="bot-mitigation-1.png" >}}
 
 * Name: ```Threshold-Based-Detection-Policy```
 * **Enable** the toggle for **Crawler Status**
@@ -43,76 +43,76 @@ For this section, we will focus on following Bot Mitigation modules of FortiADC'
 * Select all under **Content Type**
 * Keep everything default under **Crawler Scraping Status**
 
-![](bot-mitigation-2.png)
+{{< figure src="bot-mitigation-2.png" >}}
 
 * **Enable** the toggle for **Attack Detection Status**
 * Select all under **Attack Modules**
 * Keep everything default under **Attack Detection**
 * Click **Save**
 
-![](bot-mitigation-3.png)
+{{< figure src="bot-mitigation-3.png" >}}
 
-![](bot-mitigation-4.png)
+{{< figure src="bot-mitigation-4.png" >}}
 
 ### Configuring a Biometrics Based Detection Policy
 
 * Go to **Web Application Firewall** → **Biometrics Based Detection** 
 * Click on **+Create New** 
 
-![](bot-mitigation-5.png)
+{{< figure src="bot-mitigation-5.png" >}}
 
 * Name: ```Biometrics-Based-Detection-Policy```
 * Keep everything default.
 * Click **Save**
 
-![](bot-mitigation-6.png)
+{{< figure src="bot-mitigation-6.png" >}}
 
 * Click on **+Create New** 
 
-![](bot-mitigation-7.png)
+{{< figure src="bot-mitigation-7.png" >}}
 
 * Under Request URL, type ```/.*``` 
 * Click **Save**
 
-![](bot-mitigation-8.png)
+{{< figure src="bot-mitigation-8.png" >}}
 
 * Click **Save** once more.
 
-![](bot-mitigation-9.png)
+{{< figure src="bot-mitigation-9.png" >}}
 
 ### Configuring a Fingerprint Based Detection Policy
 
 * Go to **Web Application Firewall** → **Fingerprint Based Detection Policy** 
 * Click on **+Create New** 
 
-![](bot-mitigation-10.png)
+{{< figure src="bot-mitigation-10.png" >}}
 
 * Name: ```Fingerprint-Based-Detection-Policy```
 * Keep everything default.
 * Click **Save**
 
-![](bot-mitigation-11.png)
+{{< figure src="bot-mitigation-11.png" >}}
 
 * Click on **+Create New**
 
-![](bot-mitigation-12.png)
+{{< figure src="bot-mitigation-12.png" >}}
 
 * Under Request URL, type ```/.*``` 
 * Click **Save**
 
-![](bot-mitigation-13.png)
+{{< figure src="bot-mitigation-13.png" >}}
 
 * Click **Save** once more.
 
-![](bot-mitigation-14.png)
+{{< figure src="bot-mitigation-14.png" >}}
 
 ### Configuring the DVWA WAF Profile with Bot Mitigation Modules
 
 * Now, we will add the Bot Mitigation Modules to the **DVWA** WAF Profile.
 * Double click **DVWA**
 
-![](bot-mitigation-15.png)
+{{< figure src="bot-mitigation-15.png" >}}
 
 * Select the highlighted Bot Mitigation modules from their respective dropdowns and click **Save**.
 
-![](bot-mitigation-16.png)
+{{< figure src="bot-mitigation-16.png" >}}

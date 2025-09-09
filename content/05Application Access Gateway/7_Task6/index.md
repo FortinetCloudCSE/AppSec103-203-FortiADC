@@ -18,7 +18,7 @@ Each scenario presents specific challenges, followed by a technical walkthrough 
 
 **Scenario 1:** Secure Remote Access for Distributed Workforces
 
-![](aag21.png)
+{{< figure src="aag21.png" >}}
 
 The Challenge:
 
@@ -36,7 +36,7 @@ Outcome:
 
 **Scenario 2:** Unified Access to Hybrid Cloud Applications
 
-![](aag22.png)
+{{< figure src="aag22.png" >}}
 
 The Challenge:
 
@@ -54,7 +54,7 @@ Outcome:
 
 **Scenario 3:** Secure, Clientless RDP Access for Remote and BYOD Users
 
-![](aag23.png)
+{{< figure src="aag23.png" >}}
 
 The Challenge:
 

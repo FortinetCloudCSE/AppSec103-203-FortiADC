@@ -10,7 +10,7 @@ An App Portal in FortiADC serves as a centralized, browser-based interface that 
 
 From the App Portal configuration page, administrators can customize the portal’s appearance and structure. A Caption can be entered to display descriptive text in the top banner of the portal interface. App Group configurations are added as Members of the App Portal, with each Member appearing as a dedicated tab within the portal. The Title field within each Member configuration allows administrators to define the label that appears on the corresponding tab. Each tab provides access to the set of application bookmarks defined in its associated App Group.
 
-![](aag11.png)
+{{< figure src="aag11.png" >}}
 
 **Before you begin:**
 
@@ -21,7 +21,7 @@ Ensure that you have already configured the necessary App Groups containing the 
 The configuration page displays the App Portal tab.
 2. Click Create New to display the configuration editor.
 
-![](aag12.png)
+{{< figure src="aag12.png" >}}
 
 3. In the Name field, specify a unique name for the App Portal configuration object. Valid characters are A-Z, a-z, 0-9, _, and -. No space is allowed.
 4. In the Caption field, enter the text you want to display in the top banner of the App Portal. This can be used to provide a welcome message, organization name, or other identifying information for users.
@@ -29,7 +29,7 @@ The configuration page displays the App Portal tab.
 6. Click Save. Once the App Portal is created, the Member section becomes configurable.
 7. Under the Member section, click Create New to display the configuration editor.
 
-![](aag13.png)
+{{< figure src="aag13.png" >}}
 
 8. In the Title field, specify the label that will appear as the tab header for the associated App Group within the App Portal interface.
 9. In the App Group field, select a predefined App Group configuration from the drop-down list.

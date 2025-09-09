@@ -5,13 +5,13 @@ weight: 01
 ---
 ### **Network Diagram**
 
-![](fad-logical-w-ips.png)
+{{< figure src="fad-logical-w-ips.png" >}}
 
 ### **Lab Registration**
 
 To begin, enter your email address and click Check-in.  Leave everything else as is.
 
-![](registration.png)
+{{< figure src="registration.png" >}}
 
 ### **Lab Access**
 
@@ -23,7 +23,7 @@ There are two possible ways to access this lab. Depending on the environment you
 
 Your instructor will give you a link at the start of the class that will give you access via RDP to the Linux Client.  From the Linux Client you will have SSH or Web access to all devices in the lab.  Switch the protocol from SSH to RDP to get started.
 
-![](bastion.png)
+{{< figure src="bastion.png" >}}
 
 Log in with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```        
 
@@ -73,7 +73,7 @@ nestat -an | less
 ```
 Your output should look like the image below.  Now we see the server is listening on ports 80, 443, 8080, 21 and 3306.  We could use any of these ports for our health checks.
 
-![](netstat.png)
+{{< figure src="netstat.png" >}}
 
 To quit netstat type "q".
 
@@ -108,7 +108,7 @@ nestat -an | less
 
 Your output should look like the image below.  Now we see the server is listening on ports 80, 443, 8080, 21 and 3306.  We could use any of these ports for our health checks.
 
-![](netstat.png)
+{{< figure src="netstat.png" >}}
 
 To quit netstat type "q".
 
@@ -125,11 +125,11 @@ To exit the application server type "exit".
 
 If you see the Getting Started wizard click Dashboard.  This will take you directly to the Dashboard, bypassing the wizard.
 
-![](fad-wizard-1.png)
+{{< figure src="fad-wizard-1.png" >}}
 
 If you see the Highlights wizard click "Next" while scrolling through the latest highlights, toggle "Don't show highlights again" and click "Close".
 
-![](highlights-wizard.png)
+{{< figure src="highlights-wizard.png" >}}
 
 
 

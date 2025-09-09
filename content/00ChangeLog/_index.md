@@ -22,7 +22,7 @@ weight: 5
 
 ### Application Access Gateway
 
-![](aag.png)
+{{< figure src="aag.png" >}}
 
 **Key Features and Benefits**
 

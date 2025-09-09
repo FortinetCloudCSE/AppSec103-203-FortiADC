@@ -13,24 +13,24 @@ Now, we will associate the WAF profiles with a Virtual Server. Refer to the diag
 * Go to **Server Load Balance** → **Virtual Server**
 * Double click **Juiceshop** or click on edit (pencil icon) on the right side of **Juiceshop** 
 
-![Virtual-Server14](Virtual-Server14.png)
+{{< figure src="Virtual-Server14.png" alt="Virtual-Server14" >}}
 
 * Click on the **Security** tab 
 * Select **Juiceshop** from the WAF Profile dropdown menu
 * Click **Save**
 
-![Virtual-Server15](Virtual-Server15.png)
+{{< figure src="Virtual-Server15.png" alt="Virtual-Server15" >}}
 
 We will follow the same steps for configuring the **DVWA** application. 
 
 * Go to **Server Load Balance** → **Virtual Server**
 * Double click **DVWA** or click on edit (pencil icon) on the right side of **DVWA** 
 
-![Virtual-Server16](Virtual-Server16.png)
+{{< figure src="Virtual-Server16.png" alt="Virtual-Server16" >}}
 
 * Click on the **Security** tab 
 * Select **DVWA** from the WAF Profile dropdown menu
 * Click **Save**
 
-![Virtual-Server17](Virtual-Server17.png)
+{{< figure src="Virtual-Server17.png" alt="Virtual-Server17" >}}
 

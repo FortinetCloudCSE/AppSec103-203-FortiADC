@@ -9,7 +9,7 @@ An App Group is a logical container that organizes application bookmarks—each 
 
 Each App Group can contain bookmarks of various types (Web, RDP, SSH, VNC, etc.), and users accessing a given App Portal will only see the applications associated with its linked App Groups.
 
-![](aag3.png)
+{{< figure src="aag3.png" >}}
 
 **To create an App Group:**
 
@@ -56,9 +56,9 @@ Each App Bookmark Type requires specific parameters to be configured. The follow
 
 Web RDP (Remote Desktop Protocol) provides web-based access to a remote Windows desktop session without requiring an RDP client. It allows users to connect to Windows systems securely through their browser, making it ideal for remote administration, virtual desktop access, and troubleshooting.
 
-![](aag4.png)
-![](aag4a.png)
-![](aag4b.png)
+{{< figure src="aag4.png" >}}
+{{< figure src="aag4a.png" >}}
+{{< figure src="aag4b.png" >}}
 
 
 | Parameter             | Description                                                                                                                     |
@@ -90,8 +90,8 @@ Web RDP (Remote Desktop Protocol) provides web-based access to a remote Windows 
 
 Native RDP allows users to launch a full remote desktop session using an installed RDP client. Unlike Web RDP, which runs in a browser, Native RDP opens the session in the system's RDP client, providing a more responsive experience and leveraging full client-side capabilities, including peripheral redirection, multiple monitor support, and enhanced performance.
 
-![](aag7.png)
-![](aag7a.png)
+{{< figure src="aag7.png" >}}
+{{< figure src="aag7a.png" >}}
 
 
 | Parameter                | Description                                                                                        |
@@ -121,8 +121,8 @@ RemoteApp provides access to specific applications hosted on a remote Windows se
 - Privacy and security settings, such as camera redirection, must be properly configured on the RDP session host.
 - Redirect-printer support requires that the appropriate printer driver is installed on the RDP server before use.
 
-![](aag5.png)
-![](aag7a.png)
+{{< figure src="aag5.png" >}}
+{{< figure src="aag7a.png" >}}
 
 | Parameter                | Description |
 |--------------------------|-|
@@ -150,8 +150,8 @@ RemoteApp provides access to specific applications hosted on a remote Windows se
 
 Web VNC (Virtual Network Computing) enables web-based remote access to graphical desktops on Linux, macOS, and other VNC-compatible systems. It is commonly used for remote system administration and technical support.
 
-![](aag8.png)
-![](aag8a.png)
+{{< figure src="aag8.png" >}}
+{{< figure src="aag8a.png" >}}
 
 | Parameter             | Description                                                           |
 |-----------------------|-----------------------------------------------------------------------|
@@ -174,8 +174,8 @@ Web VNC (Virtual Network Computing) enables web-based remote access to graphical
 
 Web SSH (Secure Shell) provides secure, web-based command-line access to remote Linux and Unix systems. It is commonly used for server administration and troubleshooting.
 
-![](aag9.png)
-![](aag9a.png)
+{{< figure src="aag9.png" >}}
+{{< figure src="aag9a.png" >}}
 
 | Parameter             | Description  |
 |-----------------------|--------------|
@@ -190,7 +190,7 @@ Web SSH (Secure Shell) provides secure, web-based command-line access to remote 
 
 Web Telnet provides browser-based access to network devices and legacy systems that use the Telnet protocol. It is commonly used for managing routers, switches, and older mainframe systems.
 
-![](aag10.png)
+{{< figure src="aag10.png" >}}
 
 |Parameter|Description|
 |---------|-----------|

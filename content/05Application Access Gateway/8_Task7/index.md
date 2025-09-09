@@ -21,7 +21,7 @@ FortiView – User Session
 
 Navigate to FortiView > User Session to view real-time information about users currently authenticated through the AAG App Portal.
 
-![](aag24.png)
+{{< figure src="aag24.png" >}}
 
 The table displays the following fields:
 
@@ -41,7 +41,7 @@ This dashboard is useful for tracking session state, identifying active users, a
 
 To review authentication behavior and diagnose login issues, navigate to Log & Report > Event Log and filter by User.
 
-![](aag25.png)
+{{< figure src="aag25.png" >}}
 
 Each log entry provides detailed contextual information, including:
 
@@ -64,7 +64,7 @@ Use this log view to validate user authentication behavior, troubleshoot policy 
 
 Navigate to Log & Report > Traffic Log and filter by Application Access to analyze usage and connection details for all applications accessed through the AAG App Portal.
 
-![](aag26.png)
+{{< figure src="aag26.png" >}}
 
 Each entry includes:
 
@@ -102,7 +102,7 @@ Use the *diagnose app-publish* command set to inspect AAG configuration and mana
 
 **Example:**
 
-![](aag27.png)
+{{< figure src="aag27.png" >}}
 
 **Module-Level Debug Logging**
 
@@ -122,4 +122,4 @@ Enable debug output when troubleshooting issues related to user login failures, 
 
 **Example:**
 
-![](aag28.png)
+{{< figure src="aag28.png" >}}
