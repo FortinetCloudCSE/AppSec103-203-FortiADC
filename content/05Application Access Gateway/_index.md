@@ -11,7 +11,7 @@ The Agentless Application Gateway (AAG) in FortiADC provides secure, seamless re
 
 Authentication to the AAG App Portal is enforced via Access Policies. These policies define the accepted authentication methods—including Local User, LDAP, RADIUS, or SAML—and determine session behavior such as idle timeout and reauthentication. Application visibility is controlled by App Portals and App Groups.
 
-{{< figure src= "aag.png" >}}
+<img src= "aag.png">
 
 **Key Features and Benefits**
 
@@ -41,7 +41,7 @@ FortiADC’s Agentless Application Gateway (AAG) eliminates these dependencies b
 
 The user can view and launch their assigned application bookmarks for services such as RDP, SSH, VNC, Telnet, and web apps.
 
-{{< figure src="aag1.png" >}}
+<img src="aag1.png">
 
 **Multi-factor authentication (MFA), OAuth, and AD FS Proxy are not currently supported for AAG access.**
 

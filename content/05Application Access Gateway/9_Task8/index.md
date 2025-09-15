@@ -25,13 +25,13 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 - Go to **Application Access Manager → Local User**
 - Click **+Create New**
 
-{{< figure src="aag-qlg-local-user.png" >}}
+<img src="aag-qlg-local-user.png">
 
 - Name: **user1**
 - Password: **user1**
 - **Save**
 
-{{< figure src="aag-qlg-user-form.png" >}}
+<img src="aag-qlg-user-form.png">
 
 {{% /expand %}}
 
