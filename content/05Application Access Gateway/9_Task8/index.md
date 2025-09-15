@@ -25,13 +25,13 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 - Go to **Application Access Manager → Local User**
 - Click **+Create New**
 
-<img src="aag-qlg-local-user.png">
+{{< figure src="aag-qlg-local-user.png" >}}
 
 - Name: **user1**
 - Password: **user1**
 - **Save**
 
-<img src="aag-qlg-user-form.png">
+{{< figure src="aag-qlg-user-form.png" >}}
 
 {{% /expand %}}
 
@@ -44,13 +44,13 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 - **Save**
 - Click **+Create New**
 
-<img src=aag-qlg-user-form1.png>
+{{< figure src="aag-qlg-user-form1.png" >}}
 
 - Type: **Local**
 - Local User: **user1**
 - **Save**
 
-<img src=aag-qlg-user-form2.png>
+{{< figure src="aag-qlg-user-form2.png" >}}
 
 {{% /expand %}}
 
@@ -60,13 +60,13 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 - Go to **Application Access Manager → Agentless Application Gateway → App Group**
 - Click **+Create New**
 
-<img src=aag-qlg-aag.png>
+{{< figure src="aag-qlg-aag.png" >}}
 
 - Name: **AAG-App-Group**
 - **Save**
 - Click **+Create New**
 
-<img src=aag-qlg-app-access-adv.png>
+{{< figure src="aag-qlg-app-access-adv.png" >}}
 
 - Name: **DVWA-SSH**
 - Type: **Web-SSH**
@@ -86,13 +86,13 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 - Go to **Application Access Manager → Agentless Application Gateway → App Portal**
 - Click **+Create New**
 
-<img src=aag-qlg-app-portal.png>
+{{< figure src="aag-qlg-app-portal.png" >}}
 
 - Name: **AAG-App-Portal**
 - **Save**
 - Click **+Create New**
 
-<img src=aag-qlg-aag-app-portal2.png>
+{{< figure src="aag-qlg-aag-app-portal2.png" >}}
 
 - Title: **AAG-App-Portal**
 - App Group: **AAG-App-Group**
@@ -107,17 +107,17 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 - Go to **Application Access Manager → Agentless Application Gateway → Access Policy**
 - Click **+Create New**
 
-<img src=aag-qlg-access-policy.png>
+{{< figure src="aag-qlg-access-policy.png" >}}
 
 - Name: **AAG-Access-Policy**
 - Set the **App Portal Access** flag to **ON**
 - **Save**
 
-<img src=aag-qlg-access-policy1.png>
+{{< figure src="aag-qlg-access-policy1.png" >}}
 
 - Click **+Create New**
 
-<img src=aag-qlg-portal-users.png>
+{{< figure src="aag-qlg-portal-users.png" >}}
 
 - Name: **AAG-Portal-Users**
 - User Group: **AAG-Users**
@@ -133,19 +133,19 @@ A Quick Start Lab Guide on how to set up the Application Access Gateway using a 
 - Go to **Server Load Balance → Virtual Server**
 - Click **+Create New** then **Advanced Mode**
 
-<img src=fad-vs.png>
+{{< figure src="fad-vs.png" >}}
 
 - Name: **AAG**
 - Type: **Layer 7**
 
-<img src=aag-qlg-vs1.png>
+{{< figure src="aag-qlg-vs1.png" >}}
 
 > [!Info]
 > There is no need to save yet.  We will go to the **General** Tab and the **Monitoring** Tab then save the whole thing.
 
 - Click on the **General** Tab
 
-<img src=aag-qlg-vs-gen.png>
+{{< figure src="aag-qlg-vs-gen.png" >}}
 
 - Address: **10.1.2.100**
 - Port: **9443**
@@ -160,7 +160,7 @@ No need to save yet.
 
 - Click on the **Monitoring** Tab
 
-<img src=aag-qlg-vs-monitoring.png>
+{{< figure src="aag-qlg-vs-monitoring.png" >}}
 
 - Toggle the **Traffic Log** flag to **ON**
 - **Save**
@@ -172,7 +172,7 @@ Go to **FortiView → Logical Topology**
 
 You should see your Application Access Gateway.
 
-<img src=aag-qlg-fortiview.png>
+{{< figure src="aag-qlg-fortiview.png" >}}
 
 {{% /expand %}}
 
@@ -183,18 +183,18 @@ You should see your Application Access Gateway.
 - Open Firefox
 - Go to **https://10.1.1.100:9443**
 
-<img src=aag-qlg-app-portal-access.png>
+{{< figure src="aag-qlg-app-portal-access.png" >}}
 
 - Username: **user1**
 - Password: **user1**
 
-<img src=aag-qlg-user1.png>
+{{< figure src="aag-qlg-user1.png" >}}
 
 You should see your **Application App Group**
 
 Click the **DVWA-SSH** App Group
 
-<img src=aag-qlg-dvwa-ssh.png>
+{{< figure src="aag-qlg-dvwa-ssh.png" >}}
 
 You should have access to the DVWA server via SSH.
 
