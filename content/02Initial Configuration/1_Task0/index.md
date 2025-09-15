@@ -9,7 +9,7 @@ weight: 01
 
 ### **Lab Registration**
 
-To begin, enter your email address and click Check-in.  Leave everything else as is.
+To begin, enter your email address and customer name, and click Check-in.
 
 {{< figure src="registration.png" >}}
 
