@@ -3,7 +3,7 @@ title: "Lab Info"
 linkTitle: "Lab Info"
 weight: 01
 ---
-### **Network Diagram**
+### **Lab Network Diagram**
 
 {{< figure src="fad-logical-w-ips.png" >}}
 
