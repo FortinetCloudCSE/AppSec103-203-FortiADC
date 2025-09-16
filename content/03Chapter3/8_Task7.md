@@ -18,6 +18,8 @@ For this section, we will simulate attacks using **ZAP tool** installed on the C
 
 ![](zap-tool-2.png)
 
+* The ZAP tool will show a pop-up showing **Your Firefox profile cannot be loaded. It may be missing or inaccessible.** Click **OK**.
+
 * **ZAP** tool will show a pop-up showing different options. Select the default one as shown below and click **Start**
 
 ![](zap-tool-3.png)
