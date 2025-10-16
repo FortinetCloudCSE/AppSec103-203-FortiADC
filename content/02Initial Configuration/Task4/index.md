@@ -16,7 +16,7 @@ The next step is to configure a virtual server, which defines the type of traffi
 - Name: **JuiceShop**
 - Type: **Layer 7**
 
-{{< figure src="fad-vs-basic.png" >}}
+{{< figure src="fad-vs-basic1.png" >}}
 
 - Go to the **General** Tab 
 - Address: **10.1.2.100**
