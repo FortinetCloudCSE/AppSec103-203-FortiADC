@@ -11,12 +11,12 @@ Now, we will associate the WAF profiles with a Virtual Server. Refer to the diag
 
 * Login to the FortiADC (FAD-Primary) with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 * Go to **Server Load Balance** → **Virtual Server**
-* Double click **Juiceshop** or click on edit (pencil icon) on the right side of **Juiceshop** 
+* Double click **JuiceShop** or click on edit (pencil icon) on the right side of **JuiceShop** 
 
 {{< figure src="Virtual-Server14.png" alt="Virtual-Server14" >}}
 
 * Click on the **Security** tab 
-* Select **Juiceshop** from the WAF Profile dropdown menu
+* Select **JuiceShop** from the WAF Profile dropdown menu
 * Click **Save**
 
 {{< figure src="Virtual-Server15.png" alt="Virtual-Server15" >}}

@@ -13,7 +13,7 @@ The next step is to configure a virtual server, which defines the type of traffi
 
 {{< figure src="fad-vs.png" >}}
 
-- Name: **Juiceshop**
+- Name: **JuiceShop**
 - Type: **Layer 7**
 
 {{< figure src="fad-vs-basic.png" >}}

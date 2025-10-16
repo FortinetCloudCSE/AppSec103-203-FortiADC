@@ -31,10 +31,10 @@ Log in with username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
 
 Most, if not all access will be done through an RDP connection to a Linux Client with a public IP.  Your instructor will give you the public IP at the start of the lab.
 
-Once you have the public IP to your Client you will log in with username: ```xperts2025``` and password: ```AppSec-Xp3rts2025!```.  From the client you should have web or SSH access to all the devices in the lab.  There are bookmarks and passwords pre-loaded into Firefox for easy access to FAD-Primary, FAD-Secondary, Juicshop, and DVWA.
+Once you have the public IP to your Client you will log in with username: ```xperts2025``` and password: ```AppSec-Xp3rts2025!```.  From the client you should have web or SSH access to all the devices in the lab.  There are bookmarks and passwords pre-loaded into Firefox for easy access to FAD-Primary, FAD-Secondary, JuiceShop, and DVWA.
 
 > [!Info]
-> Note: The bookmarks for Juiceshop and DVWA won't work until the FortiADC's are configured.
+> Note: The bookmarks for JuiceShop and DVWA won't work until the FortiADC's are configured.
 
 ### **Device Info**
 
@@ -51,7 +51,7 @@ Once you have the public IP to your Client you will log in with username: ```xpe
 |DVWA|admin|```password```||||
 
 > [!Info]
-> The Juiceshop and DVWA applications need to be started on the application servers using the following commands.  If we miss this step our health checks will fail.
+> The JuiceShop and DVWA applications need to be started on the application servers using the following commands.  If we miss this step our health checks will fail.
 
 **APP-Server1**
 
@@ -61,7 +61,7 @@ ssh xperts2025@10.1.3.4
 ```
 Password: ```AppSec-Xp3rts2025!```
 
-Start DVWA and Juiceshop 
+Start DVWA and JuiceShop 
 ```
 sudo /opt/lampp/lampp start
 sudo docker run -d -p 10.1.3.4:80:3000 bkimminich/juice-shop
@@ -94,7 +94,7 @@ ssh xperts2025@10.1.3.5
 ```
 Password: ```AppSec-Xp3rts2025!```
 
-Start DVWA and Juiceshop 
+Start DVWA and JuiceShop 
 ```
 sudo /opt/lampp/lampp start
 sudo docker run -d -p 10.1.3.5:80:3000 bkimminich/juice-shop
