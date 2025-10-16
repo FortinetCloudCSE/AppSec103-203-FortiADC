@@ -61,6 +61,25 @@ ssh xperts2025@10.1.3.4
 ```
 Password: ```AppSec-Xp3rts2025!```
 
+> [!Info]
+> Note: You may see a warning like this:
+
+```
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+```
+
+> [!Info]
+> To clear the ssh keys use:
+> 
+> ```ssh-keygen -f "/home/xperts2025/.ssh/known_hosts" -R "10.1.3.4"```
+> or
+> ```ssh -o StrictHostKeychecking=no hostname```
+
 Start DVWA and JuiceShop 
 ```
 sudo /opt/lampp/lampp start
@@ -79,13 +98,6 @@ To quit netstat type "q".
 
 To exit the application server type "exit".
 
-> [!Info]
-> Note: If you need to clear the ssh keys try:
-> 
-> ```ssh-keygen -f "/home/xperts2025/.ssh/known_hosts" -R "10.1.3.4"```
-> or
-> ```ssh -o StrictHostKeychecking=no hostname```
-
 **APP-Server2**
 
 From the Client, SSH into APP-Server2 at 10.1.3.5.
@@ -93,6 +105,26 @@ From the Client, SSH into APP-Server2 at 10.1.3.5.
 ssh xperts2025@10.1.3.5
 ```
 Password: ```AppSec-Xp3rts2025!```
+
+
+> [!Info]
+> Note: You may see a warning like this:
+
+```
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+```
+
+> [!Info]
+> To clear the ssh keys use:
+> 
+> ```ssh-keygen -f "/home/xperts2025/.ssh/known_hosts" -R "10.1.3.5"```
+> or
+> ```ssh -o StrictHostKeychecking=no hostname```
 
 Start DVWA and JuiceShop 
 ```
@@ -113,13 +145,6 @@ Your output should look like the image below.  Now we see the server is listenin
 To quit netstat type "q".
 
 To exit the application server type "exit".
-
-> [!Info]
-> Note: If you need to clear the ssh keys try:
-> 
-> ```ssh-keygen -f "/home/xperts2025/.ssh/known_hosts" -R "10.1.3.5"```
-> or
-> ```ssh -o StrictHostKeychecking=no hostname```
 
 ### **First Time Access to the FortiADC**
 
