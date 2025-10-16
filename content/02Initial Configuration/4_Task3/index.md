@@ -96,7 +96,7 @@ Next we add the servers to a server pool.
 
 - Click **+Create New**
 - Add the Real Servers defined in the previous step to the pool
-- While adding the servers, change the listening port to 8080
+- While adding the servers, change the listening port to **8080**
 
 Your final result should look like the image below 
 

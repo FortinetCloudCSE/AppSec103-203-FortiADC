@@ -10,16 +10,16 @@ weight: 90
 For this section, we will use scripts that we will run on the client machine to generate traffic.
 
 * Login to the FortiADC (FAD-Primary) with the username ```xperts2025``` and password ```AppSec-Xp3rts2025!```
-* First, we need to clear all the logs from FortiADC. 
+* To make sure we have a "clean" system, we will to clear all the logs from FortiADC. 
 * To do that, go to FortiADC CLI by clicking ">_" towards the top right corner and type ```execute log delete-type all```
 
 {{< figure src="DVWA-Adaptive-Learning8.png" >}}
 
-* Go to **Web Application Firewall** → **Adaptive Learning View** and delete all Recommendations as shown below.
+* Go to **Web Application Firewall** → **Adaptive Learning View** and delete any Recommendations as shown below.
 
 {{< figure src="DVWA-Adaptive-Learning9.png" >}}
 
-* Go to **Web Application Firewall** → **Adaptive Learning View** and delete all Analysis data as shown below.
+* Go to **Web Application Firewall** → **Adaptive Learning View** and delete any Analysis data as shown below.
  
 {{< figure src="DVWA-Adaptive-Learning10.png" >}}
 
