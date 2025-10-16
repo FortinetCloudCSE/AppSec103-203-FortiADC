@@ -15,6 +15,13 @@ weight: 16
 - Open Firefox and go to the DVWA application: **https://10.1.1.101/dvwa**
   - Log in to DVWA with admin / ```password```. The username and password are saved in the browser.  We do want to make sure we can log in to DVWA as we will use this for other tests.
 
+### **Lab Network Diagram**
+
+{{< figure src="fad-logical-w-ips.png" >}}
+
+> [!Info]
+> There is a FortiGate in front of the FortiADC's.  The IP's we are testing are VIP's on the FortiGate and will not match the IP's we configured on the FortiADC.
+
 **JuiceShop**
 
 {{< figure src="juiceshop-test.png" >}}
