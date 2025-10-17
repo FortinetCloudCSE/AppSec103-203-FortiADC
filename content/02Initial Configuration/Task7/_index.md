@@ -7,4 +7,4 @@ weight: 17
 
 ### **Quiz**
 
-{{< quizframe page="/gamebytag?tag=ch1" height="800" width="100%" >}}
+{{< quizframe page="/gamebytag?tag=Chapter 1" height="800" width="100%" >}}
