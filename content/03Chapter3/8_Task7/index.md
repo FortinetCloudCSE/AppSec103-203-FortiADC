@@ -18,6 +18,8 @@ For this section, we will simulate attacks using the **ZAP tool** installed on t
 
 {{< figure src="zap-tool-2.png" >}}
 
+* The ZAP tool will show a pop-up showing **Your Firefox profile cannot be loaded. It may be missing or inaccessible.** Click **OK**.
+
 * The **ZAP** tool will show a pop-up showing different options. Select the default one as shown below and click **Start**
 
 {{< figure src="zap-tool-3.png" >}}
@@ -39,6 +41,11 @@ For this section, we will simulate attacks using the **ZAP tool** installed on t
 * **Binary:** ```/snap/firefox/current/usr/lib/firefox/firefox```
 * Click **Bundled**
 * Click **OK**
+
+**Note** - While configuring the ZAP tool options, you might see this error **Failed to save the options: The Fail Case String should not be empty.** under **Forced Browse** option on the left side.
+
+**Solution** - Click **OK** and add ```thereIsNoWayThat-You-CanBeThere``` under **Fail Case String** option.
+
 * Click the **Automated Scan** option shown as below. 
 
 {{< figure src="zap-tool-4.png" >}}
