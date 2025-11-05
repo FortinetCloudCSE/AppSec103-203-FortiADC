@@ -135,7 +135,7 @@ sudo docker run -d -p 10.1.3.5:80:3000 bkimminich/juice-shop
 Run netstat to confirm the applications are running.
 
 ```
-nestat -an | less
+netstat -an | less
 ```
 
 Your output should look like the image below.  Now we see the server is listening on ports 80, 443, 8080, 21 and 3306.  We could use any of these ports for our health checks.
