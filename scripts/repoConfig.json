@@ -14,28 +14,22 @@
   "quizUrl":"https://appsec103-203-fortiadc-o32xpkqaca-uc.a.run.app",
   "shortcuts": [
   {
-    "text": "Fortinet Cloud CSE GitHub Org",
-    "URL": "https://github.com/FortinetCloudCSE",
-    "icon": "fa-graduation-cap",
+    "text": "FortiADC Xperts 2025 Presentation",
+    "URL": "XPERTS-2025-FortiADC.pdf?download=true",
+    "icon": "fa-download",
     "weight":10
   },
   {
-    "text": "Fortinet Standard Workshop Guide",
-    "URL": "https://fortinetcloudcse.github.io/UserRepo",
+    "text": "FortiADC Product Guide",
+    "URL": "https://www.fortinet.com/products/application-delivery-controller/fortiadc",
     "icon": "fa-tools",
     "weight":20
   },
   {
-    "text": "Fortinet Standard Workshop Template Repo",
-    "URL": "https://github.com/FortinetCloudCSE/UserRepo",
+    "text": "FortiADC Config Guide",
+    "URL": "https://docs.fortinet.com/product/fortiadc/7.4",
     "icon": "fa-tools",
     "weight":30
-  },
-  {
-    "text": "Fortinet Hugo reLearn theme - Guide",
-    "URL": "https://mcshelby.github.io/hugo-theme-relearn/index.html",
-    "icon": "fa-tools",
-    "weight":40
   }
   ]
 }
